@@ -1,0 +1,50 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: capacityplan-previsao
+  labels:
+    app: capacityplan-previsao
+    app.kubernetes.io/name: infra-capacitydc-previsao
+spec:
+  # Dia 1 de cada mês às 02:00 (America/Recife).
+  schedule: "0 2 1 * *"
+  timeZone: America/Recife
+  concurrencyPolicy: Forbid
+  successfulJobsHistoryLimit: 3
+  failedJobsHistoryLimit: 3
+  jobTemplate:
+    spec:
+      backoffLimit: 0
+      # ~650 séries (bruto, CNN e baseline); 4 em paralelo, ~15 h.
+      # Cota do namespace: limits.memory 8G, limits.cpu 8.
+      activeDeadlineSeconds: 259200
+      template:
+        metadata:
+          labels:
+            app: capacityplan-previsao
+        spec:
+          restartPolicy: Never
+          imagePullSecrets:
+            - name: <PULL_SECRET>
+          containers:
+            - name: previsao
+              image: <REGISTRY>/capacityplan-previsao:latest
+              imagePullPolicy: IfNotPresent
+              env:
+                - name: TZ
+                  value: America/Recife
+                - name: PARALELO
+                  value: "4"
+              envFrom:
+                - secretRef:
+                    name: capacityplan-database-config
+                - configMapRef:
+                    name: capacityplan-previsao-publish-info
+                    optional: true
+              resources:
+                requests:
+                  cpu: "2"
+                  memory: 2Gi
+                limits:
+                  cpu: "8"
+                  memory: 7500Mi

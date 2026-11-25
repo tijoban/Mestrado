@@ -1,0 +1,75 @@
+\mapquadro{Ambiente, dados e alvo de previsão dos estudos (QP2 e QP3)}{qua:map-ambiente}
+{\footnotesize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{longtable}{p{1.3cm}p{3.2cm}p{5.0cm}p{3.5cm}p{1.8cm}}
+\toprule
+\textbf{ID} & \textbf{Ambiente} & \textbf{Conjunto de dados} & \textbf{Alvo} & \textbf{Granul.} \\
+\midrule
+\endfirsthead
+\multicolumn{5}{l}{\textit{Continuação}}\\
+\toprule
+\textbf{ID} & \textbf{Ambiente} & \textbf{Conjunto de dados} & \textbf{Alvo} & \textbf{Granul.} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{5}{r}{\textit{Continua na próxima página}}\\
+\endfoot
+\bottomrule
+\multicolumn{5}{l}{Fonte: Elaborado pelo autor (2026).}\\
+\endlastfoot
+Scopus 01 & Nuvem IaaS & Bitbrains GWA-T-12 & CPU; memória; rede & 5 min \\
+Scopus 02 & Nuvem (VMs) & Bitbrains GWA-T-12 & CPU; memória; disco; rede & 5 min \\
+Scopus 03 & Nuvem pública (traces) & Google Cluster & CPU; memória & 5 min \\
+Scopus 04 & Nuvem pública (traces) & Google Cluster & CPU & 5 min \\
+Scopus 05 & Nuvem pública (traces) & Google Cluster 2011 e 2019; Alibaba 2018 e 2020 (12 traces) & CPU; memória & 5 min \\
+Scopus 06 & Nuvem (contêineres) & Alibaba 2018 & CPU; memória & reamostrado \\
+Scopus 07 & Nuvem (contêineres em VMs) & Dataset próprio gerado em VMs; Google; Alibaba; Bitbrains & CPU (carga do host) & n.i. \\
+Scopus 08 & Nuvem pública (traces) & Alibaba & CPU; memória (multirrecurso) & n.i. \\
+Scopus 09 & Nuvem pública (traces) & Google; Microsoft Azure; Alibaba & CPU (workload de VMs) & n.i. \\
+Scopus 10 & Nuvem (cluster GPU para IA) & Alibaba PAI (GPU trace) & GPU; CPU (carga de IA/ML) & n.i. \\
+Scopus 11 & Nuvem pública (traces) & Alibaba 2018 & CPU (nível de máquina) & 1 min \\
+Scopus 12 & Nuvem pública (VMs e contêineres) & Azure Trace; Alibaba Trace & CPU & 5 min \\
+Scopus 13 & Nuvem pública (traces) & Alibaba (e outros traces de nuvem) & CPU; memória; disco; rede & n.i. \\
+WoS 01 & Nuvem pública (traces de provedor) & Bitbrains (fastStorage e Rnd) & CPU; memória; disco; rede & 5 min \\
+WoS 02 & Nuvem pública (traces) & Google Cluster 2019; Alibaba; Bitbrains; Azure & CPU; memória & 5 min \\
+WoS 03 & Nuvem (VMs) & Bitbrains GWA-T-12 & CPU; memória & 5 min (reamostrado) \\
+WoS 04 & Nuvem pública (traces) & Google Cluster; Alibaba & CPU; memória & n.i. \\
+WoS 05 & Nuvem pública (traces) & Google Cluster 2019 (+ Alibaba, Bitbrains, PlanetLab) & CPU; memória & 5 min \\
+IEEE 01 & Nuvem (VMs) & Bitbrains & CPU (carga de VM) & 5 min \\
+IEEE 02 & Nuvem (VMs) & Bitbrains GWA-T-12 (500 VMs, 3 meses) & CPU; memória & 1 h \\
+IEEE 03 & Multi data center & Bitbrains GWA-T-12; Materna GWA-T-13 & CPU & 5 min \\
+IEEE 04 & Nuvem pública (traces) & Google Cluster & CPU; memória & 1 a 60 min \\
+IEEE 05 & Nuvem privada (plataforma de nuvem de concessionária elétrica) & Dados da nuvem da rede elétrica (State Grid); Google; Bitbrains; PlanetLab & CPU; memória; disco & n.i. \\
+IEEE 06 & Nuvem pública (traces) & Azure & CPU (workload de VMs) & 5 min \\
+IEEE 07 & Servidor web (nuvem) & Logs de carga horária de servidor web (n.i.) & Carga (requisições) de servidor & 1 h \\
+IEEE 08 & Nuvem pública (traces) & Google Cluster & CPU & 5 min \\
+IEEE 09 & Nuvem (VMs) & Bitbrains (fastStorage e Rnd) & CPU; memória & 5 min \\
+IEEE 10 & Nuvem & Dataset real de nuvem (n.i.) & CPU; memória & n.i. \\
+IEEE 11 & Nuvem (data center) & Dataset público de workload de data center em nuvem (logs reais; Kaggle) & CPU (com memória e rede como entradas) & n.i. \\
+IEEE 12 & Nuvem distribuída (VMs) & Materna GWA-T-13 (520 VMs) & CPU; memória; disco & 5 min \\
+IEEE 13 & Nuvem pública (traces) & Azure & Carga de servidor (CPU) & 5 min \\
+IEEE 14 & Nuvem pública (traces) & Google Cluster & CPU; memória & 5 min \\
+IEEE 15 & Microsserviços (nuvem) & Dataset de workload de microsserviços (QPS) & Carga (QPS) & 1 min \\
+IEEE 16 & Nuvem & n.i. (somente resumo; PDF pendente) & Workload (5 séries de tarefas) & n.i. \\
+IEEE 17 & Nuvem pública (traces) & Alibaba 2018 & CPU; memória; disco & 15 min (agregado) \\
+IEEE 18 & On-premise (data center corporativo) & Dados reais do sistema de monitoramento (banco de séries temporais) do data center do BGP; Google Cluster & CPU (carga de hosts) & n.i. \\
+IEEE 19 & Nuvem nativa (multi-tenant) & Alibaba 2018 & CPU; memória; rede (multitarefa) & n.i. \\
+IEEE 20 & Nuvem (servidores) & Dados reais de monitoramento de servidores (5.000 registros, 10 indicadores) & Memória & n.i. \\
+IEEE 21 & Nuvem pública (data centers) & Google Cluster; Alibaba & CPU; memória (multirrecurso) & n.i. \\
+IEEE 22 & Nuvem pública (traces) & Alibaba; Microsoft Azure & CPU (workload) & n.i. \\
+IEEE 23 & Nuvem (milhares de instâncias) & Google Cluster 2019; Materna; dados sintéticos & CPU (workload por instância) & n.i. \\
+IEEE 24 & Nuvem (VMs) & Materna GWA-T-13 & CPU & 5 min \\
+IEEE 25 & Nuvem pública (traces) & Google Cluster & CPU; memória; rede & 5 min \\
+IEEE 26 & Nuvem (VMs) & Bitbrains & CPU; memória; disco; rede & 5 min \\
+IEEE 27 & Nuvem pública (traces) & Google Cluster; Azure/PlanetLab & CPU & 5 min \\
+IEEE 28 & Nuvem pública (traces) & Google Cluster; Alibaba (+ 2 datasets de competição) & CPU; memória & n.i. \\
+ACM 01 & Nuvem pública (traces) & Google Cluster 2019 & CPU; memória (nível de tarefa/job) & 5 min \\
+ACM 02 & Nuvem (contêiner) & Alibaba 2018 & CPU; memória de contêiner & 10 s (reamostrado) \\
+ACM 03 & Microsserviços & Dados de teste de estresse próprios; Erms & CPU; memória & 10 s; 1 min \\
+ACM 04 & Nuvem pública (microsserviços) & ByteDance Cloud (4 datasets abertos); benchmarks públicos (ECL etc.) & Carga (QPS); CPU & 1 min \\
+ACM 05 & Nuvem pública (hosts ECS) & Dataset de produção (10.000 hosts, 90 dias) & CPU; memória; logs & 1 min \\
+ACM 06 & Nuvem privada (plataforma comercial) & Dataset privado de plataforma comercial & CPU & n.i. \\
+ACM 07 & Nuvem (contêineres) & Alibaba; Google Cluster & CPU & n.i. \\
+\end{longtable}
+}

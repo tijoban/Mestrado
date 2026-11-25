@@ -1,0 +1,52 @@
+Recuperados: 1591 {'IEEE': 572, 'Scopus': 981, 'ACM': 28, 'WoS': 10} | duplicados 369 | únicos 1222
+Excluídos pré-triagem: 720 {'I1': 86, 'E3': 244, 'E1': 117, 'E2': 102, 'E6': 121, 'E4': 50}
+Após pré-triagem: 502
+Excluídos checagem fina: 443 {'A1': 10, 'A2': 6, 'E2': 68, 'E3': 32, 'E7': 5, 'F1': 191, 'G1': 16, 'I1': 93, 'I2': 4, 'L1': 1, 'manual': 17}
+Elegíveis: 59 | pagos: 6 | incluídos: 53
+Por ano: {'2021': 3, '2023': 7, '2024': 6, '2025': 15, '2026': 18, '2027': 1, '2022': 3}
+Tipo: {'Article': 21, 'Conference paper': 32}
+
+Ambiente: [('Nuvem pública (traces de provedores)', 21), ('Hospedagem corporativa de VMs (Bitbrains/Materna)', 13), ('Contêineres/microsserviços', 9), ('Nuvem/VMs (não especificado)', 5), ('Nuvem privada', 2), ('Cluster GPU (cargas de IA)', 1), ('Multi data center', 1), ('Data center on-premise', 1)]
+Origem: [('Traces públicos', 41), ('Próprios/privados', 6), ('Públicos + próprios', 5), ('Não informado', 1)]
+Datasets: [('Google Cluster', 20), ('Alibaba', 19), ('Bitbrains (GWA-T-12)', 13), ('Dados próprios/produção', 11), ('Microsoft Azure', 7), ('Outros benchmarks', 5), ('Materna (GWA-T-13)', 4), ('PlanetLab', 3), ('ByteDance Cloud', 1)]
+Alvo: [('CPU', 50), ('Memória', 31), ('Rede', 8), ('Disco', 7), ('Requisições/QPS', 3), ('GPU', 1)]
+Abordagem: [('Híbrido de deep learning', 19), ('Deep learning (arquitetura única)', 15), ('Estudo comparativo/benchmark', 9), ('Ensemble', 3), ('Híbrido com metaheurística', 3), ('Híbrido estatístico + DL', 2), ('Generativo/LLM', 2)]
+Famílias: [('Recorrentes (LSTM/GRU/RNN)', 26), ('Transformer/atenção', 22), ('Convolucionais (CNN/TCN)', 12), ('Decomposição/domínio da frequência', 9), ('Estatísticos (ARIMA/VAR/Prophet)', 8), ('MLP/lineares profundos (N-BEATS, TiDE, TimeMixer)', 7), ('Ensemble', 5), ('ML clássico (SVR/RF/XGBoost)', 4), ('Transfer learning', 3), ('Metaheurísticas (GA/PSO/GWO)', 3), ('Espaço de estados (Mamba/SSM)', 2), ('Grafos (GCN)', 2), ('Generativos/LLM (GAN, Llama)', 2)]
+Métricas: [('MAE', 45), ('MSE', 37), ('RMSE', 28), ('MAPE', 19), ('R²', 13), ('Métricas probabilísticas/risco', 3), ('Custo computacional', 2), ('SMAPE', 2), ('NRMSE', 1), ('MASE', 1)]
+Validação: [('Hold-out simples', 48), ('Teste estatístico de significância', 4), ('Hold-out treino/validação/teste', 4), ('Retreino/variação de janela', 4), ('Múltiplas sementes', 2), ('Transferência entre domínios', 1), ('Validação cruzada k-fold', 1), ('Não informado', 1)]
+Horizonte: [('Multi-step (curto prazo)', 26), ('Um passo', 17), ('Longo prazo', 8), ('Não informado', 1), ('Um passo e multi-step', 1)]
+Ferramentas: [('Python', 40), ('GPU', 23), ('PyTorch', 18), ('TensorFlow/Keras', 13), ('scikit-learn', 6), ('Pandas/NumPy', 5), ('XGBoost', 4), ('Prophet', 4), ('statsmodels', 2), ('Docker', 2), ('Kubernetes', 2), ('Apache Spark', 1), ('Streamlit', 1), ('TensorFlow Serving', 1)]
+Maturidade: [('Experimento offline', 39), ('Estudo comparativo/benchmark', 5), ('Protótipo/prova de conceito', 5), ('Implantação experimental/estudo de caso', 3), ('Implantado em produção', 1)]
+Baselines: [('LSTM', 25), ('GRU', 15), ('PatchTST', 13), ('DLinear', 11), ('ARIMA/SARIMA', 10), ('Informer', 10), ('iTransformer', 9), ('Transformer', 9), ('CNN-LSTM', 7), ('Autoformer', 7), ('BiLSTM', 6), ('TimesNet', 6), ('FEDformer', 4), ('Persistente/naive', 3), ('XGBoost', 1)]
+
+[Ambiente] Hospedagem corporativa de VMs (Bitbrains/Materna): ouhame2021,shetty2023,ullah2023,christofidi2023a,kollu2024,azarian2025,leka2021,sarikaa2021,lavanya2024,mamushiane2025,mahbub2026,kaim2026,kollu2026
+[Ambiente] Nuvem pública (traces de provedores): patel2023,singh2024,rossi2025,xie2026,liu2026,jin2026,zheng2027,lin2025a,vijayakumar2022,sathiya2023,kang2024,suo2025,bhatia2025,naik2025,zhao2026,lv2026,shi2026,sanikal2026,sun2026,christofidi2023b,qiu2026
+[Ambiente] Contêineres/microsserviços: song2026,bawa2026,denovi2026,wang2025,huang2025,ye2024,ghorab2024,ye2025,zhang2026b
+[Ambiente] Cluster GPU (cargas de IA): pandeeswari2026
+[Ambiente] Multi data center: sun2022
+[Ambiente] Nuvem privada: bao2022,zhang2026a
+[Ambiente] Nuvem/VMs (não especificado): janjanam2023,alrwbaye2025,nayak2025,lin2025b,kai2025
+[Ambiente] Data center on-premise: lin2025c
+[Abordagem] Híbrido de deep learning: ouhame2021,singh2024,song2026,liu2026,pandeeswari2026,zheng2027,azarian2025,leka2021,nayak2025,suo2025,bhatia2025,lin2025b,lin2025c,kai2025,zhao2026,shi2026,sanikal2026,zhang2026a,zhang2026b
+[Abordagem] Híbrido estatístico + DL: shetty2023,sun2022
+[Abordagem] Deep learning (arquitetura única): patel2023,rossi2025,xie2026,jin2026,ullah2023,lavanya2024,wang2025,huang2025,lv2026,mahbub2026,kollu2026,christofidi2023b,ye2024,ghorab2024,ye2025
+[Abordagem] Ensemble: bawa2026,bao2022,kang2024
+[Abordagem] Estudo comparativo/benchmark: denovi2026,christofidi2023a,kollu2024,lin2025a,sarikaa2021,sathiya2023,janjanam2023,mamushiane2025,naik2025
+[Abordagem] Híbrido com metaheurística: vijayakumar2022,alrwbaye2025,kaim2026
+[Abordagem] Generativo/LLM: sun2026,qiu2026
+[Origem] Traces públicos: ouhame2021,shetty2023,patel2023,singh2024,rossi2025,song2026,xie2026,liu2026,pandeeswari2026,jin2026,denovi2026,zheng2027,ullah2023,christofidi2023a,kollu2024,lin2025a,azarian2025,leka2021,sarikaa2021,sun2022,vijayakumar2022,sathiya2023,kang2024,lavanya2024,mamushiane2025,suo2025,bhatia2025,naik2025,huang2025,zhao2026,lv2026,mahbub2026,kaim2026,shi2026,kollu2026,sanikal2026,sun2026,christofidi2023b,ye2024,ye2025,zhang2026b
+[Origem] Públicos + próprios: bawa2026,bao2022,nayak2025,lin2025c,ghorab2024
+[Origem] Próprios/privados: janjanam2023,alrwbaye2025,wang2025,kai2025,qiu2026,zhang2026a
+[Origem] Não informado: lin2025b
+[Maturidade] Experimento offline: ouhame2021,shetty2023,patel2023,singh2024,rossi2025,song2026,bawa2026,xie2026,liu2026,pandeeswari2026,jin2026,zheng2027,ullah2023,kollu2024,azarian2025,leka2021,sarikaa2021,sun2022,vijayakumar2022,sathiya2023,kang2024,lavanya2024,alrwbaye2025,nayak2025,suo2025,bhatia2025,wang2025,lin2025b,huang2025,zhao2026,lv2026,kaim2026,shi2026,sanikal2026,sun2026,ye2024,qiu2026,zhang2026a,zhang2026b
+[Maturidade] Estudo comparativo/benchmark: denovi2026,christofidi2023a,lin2025a,mamushiane2025,naik2025
+[Maturidade] Implantação experimental/estudo de caso: bao2022,mahbub2026,ye2025
+[Maturidade] Protótipo/prova de conceito: janjanam2023,kai2025,kollu2026,christofidi2023b,ghorab2024
+[Maturidade] Implantado em produção: lin2025c
+[Horizonte] Um passo: ouhame2021,shetty2023,bawa2026,christofidi2023a,kollu2024,leka2021,sarikaa2021,vijayakumar2022,janjanam2023,kang2024,lavanya2024,alrwbaye2025,nayak2025,mamushiane2025,kai2025,kaim2026,ghorab2024
+[Horizonte] Multi-step (curto prazo): patel2023,singh2024,rossi2025,song2026,xie2026,pandeeswari2026,jin2026,ullah2023,azarian2025,sun2022,sathiya2023,suo2025,bhatia2025,wang2025,lin2025b,naik2025,lin2025c,huang2025,zhao2026,mahbub2026,shi2026,kollu2026,sanikal2026,christofidi2023b,qiu2026,zhang2026b
+[Horizonte] Longo prazo: liu2026,zheng2027,bao2022,lv2026,sun2026,ye2024,ye2025,zhang2026a
+[Horizonte] Não informado: denovi2026
+[Horizonte] Um passo e multi-step: lin2025a
+
+Chaves: Scopus 01=ouhame2021; Scopus 02=shetty2023; Scopus 03=patel2023; Scopus 04=singh2024; Scopus 05=rossi2025; Scopus 06=song2026; Scopus 07=bawa2026; Scopus 08=xie2026; Scopus 09=liu2026; Scopus 10=pandeeswari2026; Scopus 11=jin2026; Scopus 12=denovi2026; Scopus 13=zheng2027; WoS 01=ullah2023; WoS 02=christofidi2023a; WoS 03=kollu2024; WoS 04=lin2025a; WoS 05=azarian2025; IEEE 01=leka2021; IEEE 02=sarikaa2021; IEEE 03=sun2022; IEEE 04=vijayakumar2022; IEEE 05=bao2022; IEEE 06=sathiya2023; IEEE 07=janjanam2023; IEEE 08=kang2024; IEEE 09=lavanya2024; IEEE 10=alrwbaye2025; IEEE 11=nayak2025; IEEE 12=mamushiane2025; IEEE 13=suo2025; IEEE 14=bhatia2025; IEEE 15=wang2025; IEEE 16=lin2025b; IEEE 17=naik2025; IEEE 18=lin2025c; IEEE 19=huang2025; IEEE 20=kai2025; IEEE 21=zhao2026; IEEE 22=lv2026; IEEE 23=mahbub2026; IEEE 24=kaim2026; IEEE 25=shi2026; IEEE 26=kollu2026; IEEE 27=sanikal2026; IEEE 28=sun2026; ACM 01=christofidi2023b; ACM 02=ye2024; ACM 03=ghorab2024; ACM 04=ye2025; ACM 05=qiu2026; ACM 06=zhang2026a; ACM 07=zhang2026b

@@ -1,0 +1,12 @@
+Híbrido de deep learning (19): ouhame2021,singh2024,song2026,liu2026,pandeeswari2026,zheng2027,azarian2025,leka2021,nayak2025,suo2025,bhatia2025,lin2025b,lin2025c,kai2025,zhao2026,shi2026,sanikal2026,zhang2026a,zhang2026b
+Deep learning (arquitetura única) (15): patel2023,rossi2025,xie2026,jin2026,ullah2023,lavanya2024,wang2025,huang2025,lv2026,mahbub2026,kollu2026,christofidi2023b,ye2024,ghorab2024,ye2025
+Estudo comparativo/benchmark (9): denovi2026,christofidi2023a,kollu2024,lin2025a,sarikaa2021,sathiya2023,janjanam2023,mamushiane2025,naik2025
+Ensemble (3): bawa2026,bao2022,kang2024
+Híbrido com metaheurística (3): vijayakumar2022,alrwbaye2025,kaim2026
+Híbrido estatístico + DL (2): shetty2023,sun2022
+Generativo/LLM (2): sun2026,qiu2026
+
+On-premise: ['ACM 06 zhang2026a', 'IEEE 05 bao2022', 'IEEE 18 lin2025c']
+Classes: {'Nuvem (pública, hospedagem, contêineres, GPU, n.i.)': 50, 'On-premise (data center próprio ou nuvem privada)': 3}
+Origem: {'Traces públicos': 41, 'Públicos + próprios': 5, 'Próprios/privados': 6, 'Não informado': 1}
+Bases: rec={'IEEE': 572, 'Scopus': 981, 'ACM': 28, 'WoS': 10} eleg={'Scopus': 19, 'WoS': 5, 'IEEE': 28, 'ACM': 7} inc={'Scopus': 13, 'WoS': 5, 'IEEE': 28, 'ACM': 7}

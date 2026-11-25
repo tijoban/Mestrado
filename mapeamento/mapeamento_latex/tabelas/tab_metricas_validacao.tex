@@ -1,0 +1,77 @@
+{\footnotesize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{longtable}{p{1.3cm}ccccc p{2.0cm}p{3.2cm}p{2.0cm}}
+\caption{Métricas de avaliação, protocolo de validação e horizonte por estudo (QP5)}\label{tab:map-metricas}\\
+\toprule
+\textbf{ID} & \textbf{MAE} & \textbf{MSE} & \textbf{RMSE} & \textbf{MAPE} & \textbf{R$^2$} & \textbf{Outras} & \textbf{Validação} & \textbf{Horizonte} \\
+\midrule
+\endfirsthead
+\multicolumn{9}{l}{\textit{Continuação}}\\
+\toprule
+\textbf{ID} & \textbf{MAE} & \textbf{MSE} & \textbf{RMSE} & \textbf{MAPE} & \textbf{R$^2$} & \textbf{Outras} & \textbf{Validação} & \textbf{Horizonte} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{9}{r}{\textit{Continua na próxima página}}\\
+\endfoot
+\bottomrule
+\multicolumn{9}{l}{Fonte: Elaborado pelo autor (2026).}\\
+\endlastfoot
+Scopus 01 & $\bullet$ & $\bullet$ & $\bullet$ &  &  & -- & Hold-out temporal & Um passo \\
+Scopus 02 &  &  &  &  &  & NRMSE & Hold-out (6000/2225 amostras) & Um passo \\
+Scopus 03 & $\bullet$ & $\bullet$ & $\bullet$ &  & $\bullet$ & -- & Hold-out temporal (90/10) & Multi-step (curto prazo) \\
+Scopus 04 & $\bullet$ & $\bullet$ & $\bullet$ &  & $\bullet$ & -- & Hold-out temporal & Multi-step (curto prazo) \\
+Scopus 05 & $\bullet$ & $\bullet$ &  &  &  & Métricas probabilísticas/risco & Hold-out temporal; teste estatístico & Multi-step (curto prazo) \\
+Scopus 06 & $\bullet$ & $\bullet$ & $\bullet$ &  & $\bullet$ & -- & Hold-out temporal & Multi-step (curto prazo) \\
+Scopus 07 & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ &  & -- & Hold-out temporal & Um passo \\
+Scopus 08 & $\bullet$ & $\bullet$ & $\bullet$ &  &  & -- & Hold-out temporal & Multi-step (curto prazo) \\
+Scopus 09 & $\bullet$ & $\bullet$ &  &  &  & -- & Hold-out temporal & Longo prazo \\
+Scopus 10 & $\bullet$ & $\bullet$ &  &  & $\bullet$ & -- & Hold-out cronológico treino/validação/teste (evita vazamento) & Multi-step (curto prazo) \\
+Scopus 11 & $\bullet$ & $\bullet$ & $\bullet$ &  &  & Métricas probabilísticas/risco & Hold-out temporal; 3 sementes; retreino em janelas & Multi-step (curto prazo) \\
+Scopus 12 & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & Custo computacional & Hold-out temporal; TL Azure→Alibaba & Não informado \\
+Scopus 13 & $\bullet$ & $\bullet$ &  &  &  & -- & Hold-out temporal; teste estatístico & Longo prazo \\
+WoS 01 & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ &  & -- & Hold-out com variação da proporção treino/teste e da janela histórica & Multi-step (curto prazo) \\
+WoS 02 & $\bullet$ &  &  &  &  & -- & Hold-out temporal & Um passo \\
+WoS 03 & $\bullet$ & $\bullet$ &  &  &  & -- & Hold-out 80/20 & Um passo \\
+WoS 04 & $\bullet$ & $\bullet$ &  &  &  & -- & Hold-out temporal (treino/validação/teste) & Um passo e multi-step \\
+WoS 05 & $\bullet$ & $\bullet$ &  & $\bullet$ &  & -- & Hold-out temporal & Multi-step (curto prazo) \\
+IEEE 01 & $\bullet$ &  & $\bullet$ &  &  & -- & Hold-out temporal & Um passo \\
+IEEE 02 & $\bullet$ &  & $\bullet$ & $\bullet$ & $\bullet$ & -- & Hold-out temporal & Um passo \\
+IEEE 03 & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ &  & -- & Hold-out (treino/validação/teste) & Multi-step (curto prazo) \\
+IEEE 04 &  &  & $\bullet$ &  &  & -- & Hold-out 70/30 & Um passo \\
+IEEE 05 & $\bullet$ &  &  & $\bullet$ &  & MASE & Hold-out temporal & Longo prazo \\
+IEEE 06 & $\bullet$ & $\bullet$ & $\bullet$ &  &  & -- & Hold-out temporal & Multi-step (curto prazo) \\
+IEEE 07 & $\bullet$ &  & $\bullet$ & $\bullet$ &  & -- & Hold-out (24 h de teste) & Um passo \\
+IEEE 08 &  &  &  & $\bullet$ &  & -- & Hold-out temporal & Um passo \\
+IEEE 09 & $\bullet$ &  &  &  &  & -- & Hold-out temporal & Um passo \\
+IEEE 10 & $\bullet$ & $\bullet$ &  &  &  & -- & Hold-out temporal & Um passo \\
+IEEE 11 & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & -- & Hold-out temporal & Um passo \\
+IEEE 12 &  &  & $\bullet$ &  &  & Custo computacional & Hold-out; validação cruzada k-fold & Um passo \\
+IEEE 13 & $\bullet$ & $\bullet$ &  &  &  & -- & Hold-out temporal & Multi-step (curto prazo) \\
+IEEE 14 & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ &  & -- & Hold-out temporal; teste estatístico & Multi-step (curto prazo) \\
+IEEE 15 & $\bullet$ & $\bullet$ &  &  &  & -- & Hold-out temporal & Multi-step (curto prazo) \\
+IEEE 16 & $\bullet$ &  & $\bullet$ &  &  & -- & n.i. & Multi-step (curto prazo) \\
+IEEE 17 &  &  & $\bullet$ &  &  & -- & Hold-out com variação de treino/teste e janela histórica & Multi-step (curto prazo) \\
+IEEE 18 & $\bullet$ & $\bullet$ & $\bullet$ &  & $\bullet$ & -- & Hold-out temporal + fine-tuning com fluxo em tempo real & Multi-step (curto prazo) \\
+IEEE 19 & $\bullet$ & $\bullet$ &  & $\bullet$ &  & -- & Hold-out temporal & Multi-step (curto prazo) \\
+IEEE 20 & $\bullet$ & $\bullet$ &  &  & $\bullet$ & -- & Hold-out temporal & Um passo \\
+IEEE 21 & $\bullet$ & $\bullet$ &  &  &  & -- & Hold-out temporal & Multi-step (curto prazo) \\
+IEEE 22 &  & $\bullet$ & $\bullet$ & $\bullet$ &  & -- & Hold-out temporal; média de 5 sementes & Longo prazo \\
+IEEE 23 & $\bullet$ & $\bullet$ &  & $\bullet$ &  & -- & Hold-out temporal & Multi-step (curto prazo) \\
+IEEE 24 &  & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & -- & Hold-out temporal & Um passo \\
+IEEE 25 & $\bullet$ &  & $\bullet$ &  & $\bullet$ & SMAPE & Hold-out temporal & Multi-step (curto prazo) \\
+IEEE 26 & $\bullet$ & $\bullet$ & $\bullet$ &  & $\bullet$ & -- & Hold-out temporal & Multi-step (curto prazo) \\
+IEEE 27 & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & -- & Hold-out temporal & Multi-step (curto prazo) \\
+IEEE 28 & $\bullet$ & $\bullet$ &  & $\bullet$ &  & -- & Hold-out temporal; teste estatístico & Longo prazo \\
+ACM 01 & $\bullet$ &  &  &  &  & -- & Hold-out temporal & Multi-step (curto prazo) \\
+ACM 02 & $\bullet$ & $\bullet$ &  &  &  & -- & Hold-out temporal & Longo prazo \\
+ACM 03 & $\bullet$ &  &  &  &  & Métricas probabilísticas/risco & Hold-out temporal & Um passo \\
+ACM 04 & $\bullet$ & $\bullet$ &  &  &  & SMAPE & Hold-out temporal & Longo prazo \\
+ACM 05 &  &  &  & $\bullet$ &  & -- & Hold-out temporal 70/15/15 & Multi-step (curto prazo) \\
+ACM 06 & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ &  & -- & Hold-out temporal & Longo prazo \\
+ACM 07 & $\bullet$ & $\bullet$ & $\bullet$ &  &  & -- & Hold-out temporal & Multi-step (curto prazo) \\
+\midrule
+\textbf{Total} & 45 & 37 & 28 & 19 & 13 & & & \\
+\end{longtable}
+}

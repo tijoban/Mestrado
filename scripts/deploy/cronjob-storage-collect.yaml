@@ -1,0 +1,45 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: capacityplan-storage-collect
+  labels:
+    app: capacityplan-storage-collect
+spec:
+  # Todo dia às 07:00 (America/Recife): NetApp, Pure e vSAN -> storage_dc
+  schedule: "0 7 * * *"
+  timeZone: America/Recife
+  concurrencyPolicy: Forbid
+  successfulJobsHistoryLimit: 3
+  failedJobsHistoryLimit: 3
+  jobTemplate:
+    spec:
+      backoffLimit: 2
+      activeDeadlineSeconds: 1800
+      template:
+        metadata:
+          labels:
+            app: capacityplan-storage-collect
+        spec:
+          restartPolicy: OnFailure
+          imagePullSecrets:
+            - name: <PULL_SECRET>
+          containers:
+            - name: storage
+              image: <REGISTRY>/capacityplan-coleta:latest
+              imagePullPolicy: Always
+              command: ["python", "-m", "coleta.storage_collect"]
+              env:
+                - name: TZ
+                  value: America/Recife
+              envFrom:
+                - secretRef:
+                    name: capacityplan-database-config
+                - secretRef:
+                    name: capacityplan-storage-config
+              resources:
+                requests:
+                  cpu: "50m"
+                  memory: "200M"
+                limits:
+                  cpu: "500m"
+                  memory: "400M"

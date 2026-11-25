@@ -1,0 +1,378 @@
+% =====================================================================
+% Mapeamento sistemático da literatura
+% Incluir no corpo do documento com:  \input{mapeamento}
+% Requer: \input{preambulo_mapeamento} no preâmbulo e
+%         referencias_mapeamento.bib na bibliografia.
+% Tabelas em tabelas/ e figuras em figuras/ são geradas por
+% gerar_mapeamento.py a partir de extracao_dados.tsv.
+% =====================================================================
+
+\section{Mapeamento Sistemático da Literatura}
+\label{sec:mapeamento}
+
+Esta seção apresenta o Mapeamento Sistemático da Literatura (MSL) conduzido para caracterizar o estado da arte em previsão do uso de recursos computacionais em data centers e ambientes de nuvem. O objetivo é identificar como os estudos coletam e tratam as métricas, em que ambientes atuam, quais modelos e ferramentas empregam, como avaliam esses modelos e quais desafios relatam, de modo a fundamentar as decisões de projeto da arquitetura proposta para o planejamento de capacidade em plataformas heterogêneas (VMware, Nutanix e Kubernetes).
+
+% ---------------------------------------------------------------------
+\subsection{Protocolo}
+\label{subsec:map-protocolo}
+
+O mapeamento foi guiado pelas seis questões de pesquisa apresentadas no \autoref{qua:map-qps}, que também relaciona os dados extraídos de cada estudo para respondê-las.
+
+\mapquadro{Questões de pesquisa e dados extraídos dos estudos}{qua:map-qps}
+{\footnotesize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.2}
+\begin{longtable}{p{1.1cm}p{7.4cm}p{6.4cm}}
+\toprule
+\textbf{QP} & \textbf{Questão} & \textbf{Dados extraídos} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{QP} & \textbf{Questão} & \textbf{Dados extraídos} \\
+\midrule
+\endhead
+\bottomrule
+\multicolumn{3}{l}{Fonte: Elaborado pelo autor (2026).}\\
+\endlastfoot
+QP1 & Quais paradigmas metodológicos predominam para previsão de carga e uso de recursos e como a coleta, a padronização e o armazenamento das métricas são estruturados? & Paradigma (orientado a dados, modelo canônico, ontologia); origem e forma de coleta dos dados; pré-processamento; armazenamento. \\
+QP2 & Como se distribui o foco dos estudos entre os tipos de ambiente (nuvem pública, nuvem privada, on-premise, híbrido, multi-tenant)? & Ambiente; plataforma de virtualização ou orquestração; origem dos dados (traces públicos ou dados próprios). \\
+QP3 & Quais linguagens, bibliotecas, frameworks e conjuntos de dados são utilizados para implementar o pipeline de previsão? & Linguagem; bibliotecas de ML/DL; infraestrutura de execução; ferramentas de visualização; datasets. \\
+QP4 & Quais modelos de análise e algoritmos de predição são utilizados para estimar o consumo futuro de recursos e quais se destacam? & Categoria do modelo; arquitetura proposta; baselines; alvo de previsão; principal resultado. \\
+QP5 & Quais métricas e procedimentos de avaliação são empregados para validar os modelos? & Métricas de erro; protocolo de validação; testes estatísticos; horizonte e granularidade da previsão. \\
+QP6 & Quais desafios e benefícios são relatados na aplicação de previsão de capacidade? & Desafios declarados; benefícios quantificados; nível de maturidade da solução. \\
+\end{longtable}
+}
+
+As buscas foram realizadas em quatro bases: Scopus, Web of Science, IEEE Xplore e ACM Digital Library. A string de busca combinou dois eixos: (i) o ambiente computacional (\textit{cloud}, \textit{data center}, \textit{cluster}, máquinas virtuais e contêineres) e (ii) a previsão de uso ou demanda de recursos (\textit{workload}, \textit{resource usage}, \textit{CPU}, \textit{memory}, \textit{forecasting}, \textit{prediction}).
+% TODO: inserir aqui a string exata utilizada em cada base, se o programa exigir.
+Foram considerados trabalhos publicados a partir de 2021, incluindo os artigos com publicação antecipada já associados ao volume de 2027. Os critérios de seleção estão no \autoref{qua:map-criterios}.
+
+\mapquadro{Critérios de inclusão e exclusão}{qua:map-criterios}
+{\footnotesize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.2}
+\begin{longtable}{p{1.1cm}p{14.2cm}}
+\toprule
+\textbf{Código} & \textbf{Critério} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Código} & \textbf{Critério} \\
+\midrule
+\endhead
+\bottomrule
+\multicolumn{2}{l}{Fonte: Elaborado pelo autor (2026).}\\
+\endlastfoot
+\multicolumn{2}{l}{\textit{Inclusão}}\\
+I1 & O objeto principal do estudo é a previsão do uso ou da demanda de recursos computacionais (CPU, memória, disco, rede, carga) em nuvem, data center, cluster, máquinas virtuais ou contêineres. \\
+I2 & O estudo apresenta avaliação quantitativa do modelo (métricas de erro em dados reais ou de referência). \\
+I3 & Publicado a partir de 2021, em inglês ou português. \\
+\midrule
+\multicolumn{2}{l}{\textit{Exclusão}}\\
+E1 & Foco em energia, refrigeração ou hardware, sem previsão de recursos de TI. \\
+E2 & Previsão de outro alvo (falhas, anomalias, preço, latência, duração de \textit{jobs}, tráfego de telecomunicações etc.). \\
+E3 & Escalonamento, alocação, migração ou balanceamento em que a previsão não é avaliada como contribuição. \\
+E4 & Revisões, \textit{surveys}, editoriais, capítulos e resumos sem pesquisa empírica. \\
+E5 & Registro duplicado. \\
+E6 & Estudos cujo objeto é o mecanismo de \textit{autoscaling}. \\
+E7 & Estudos centrados em SLA/QoS. \\
+\midrule
+\multicolumn{2}{l}{\textit{Refinamento (checagem fina)}}\\
+F1 & O título deve tratar de previsão de série temporal (\textit{forecasting}). \\
+A1/A2 & Ambiente fora de nuvem/data center (\textit{edge}, \textit{fog}, MEC, redes) ou título sem referência a nuvem, data center, VM, contêiner, cluster ou recursos. \\
+G1 & A previsão é apenas um componente de um sistema maior de gestão, provisionamento ou otimização. \\
+L1 & Artigo em outro idioma. \\
+TC & Texto completo indisponível para leitura na íntegra. \\
+\end{longtable}
+}
+
+O processo de seleção combinou uma pré-triagem automatizada, por regras sobre título, resumo e palavras-chave, com uma checagem fina, também por regras e complementada por decisões manuais registradas. Em seguida vieram a verificação do texto completo e a leitura na íntegra. A \autoref{fig:map-fluxo} resume o fluxo. Dos 1.591 registros recuperados, 369 eram duplicados. A pré-triagem excluiu 720 dos 1.222 registros únicos e a checagem fina excluiu outros 443, restando 59 estudos elegíveis. Seis deles, todos indexados na Scopus, não tinham texto completo acessível e foram excluídos pelo critério TC. Assim, \textbf{53 estudos primários} compõem o corpus final, distribuídos conforme a \autoref{tab:map-bases}.
+
+\begin{figure}[htbp]
+\centering
+\caption{Fluxo de identificação, triagem, elegibilidade e inclusão dos estudos}
+\label{fig:map-fluxo}
+\includegraphics[width=0.86\textwidth]{\mappath figuras/fig_fluxo_selecao.pdf}
+\mapfonte{Fonte: Elaborado pelo autor (2026).}
+\end{figure}
+
+\input{\mappath tabelas/tab_distribuicao_bases}
+
+A extração dos dados foi feita pela leitura do texto completo de cada estudo. Os campos extraídos são os do \autoref{qua:map-qps} e foram registrados em planilha. As classificações usadas nas figuras desta seção foram obtidas por regras explícitas aplicadas a esses campos, o que permite reproduzir as contagens. Cada estudo recebeu um identificador formado pela base e por um número sequencial (por exemplo, Scopus~01 e IEEE~18), que corresponde ao nome do arquivo do artigo no acervo da pesquisa. O \autoref{qua:map-catalogo} lista os estudos incluídos.
+
+\input{\mappath tabelas/qua_catalogo_estudos}
+
+% ---------------------------------------------------------------------
+\subsection{Caracterização geral}
+\label{subsec:map-caracterizacao}
+
+A \autoref{fig:map-ano} mostra o crescimento acentuado do tema. Os anos de 2021 a 2024 somam 19 estudos, enquanto 2025 e 2026 concentram 33, ou 62,3\% do corpus. Há também um artigo já publicado com volume de 2027. A produção divide-se entre eventos (32 estudos) e periódicos (21 estudos), com predomínio de conferências IEEE. Entre os periódicos destacam-se \textit{Cluster Computing}, \textit{Future Internet} e \textit{IEEE Transactions on Cloud Computing}.
+
+\begin{figure}[htbp]
+\centering
+\caption{Distribuição dos estudos por ano de publicação e base de dados}
+\label{fig:map-ano}
+\includegraphics[width=\textwidth]{\mappath figuras/fig_estudos_ano_base.pdf}
+\mapfonte{Fonte: Elaborado pelo autor (2026).}
+\end{figure}
+
+A \autoref{tab:map-sintese} reúne a classificação dos 53 estudos nas principais dimensões analisadas, que são detalhadas nas subseções seguintes.
+
+\input{\mappath tabelas/tab_sintese_categorias}
+
+% ---------------------------------------------------------------------
+\subsection{QP1 -- Paradigmas metodológicos, coleta, padronização e armazenamento}
+\label{subsec:map-qp1}
+
+Todos os 53 estudos adotam um paradigma \textbf{orientado a dados} (\textit{data-driven}). Os modelos são treinados sobre séries temporais históricas de métricas de recursos. Nenhum estudo emprega ontologias, taxonomias formais ou modelos canônicos para integrar fontes heterogêneas. A heterogeneidade tratada é a das \textbf{métricas}, por meio de modelos multivariados (CPU, memória, disco e rede previstos em conjunto ou usados como covariáveis), e não a das \textbf{plataformas}. Isso se vê, por exemplo, em \citeonline{shetty2023}, que verifica a causalidade de Granger entre os recursos de uma VM antes de propor um ensemble VAR--LSTM, e em \citeonline{huang2025}, que modela a contenção de recursos entre tarefas de um backend nativo de nuvem.
+
+A coleta raramente é descrita, porque 41 estudos (77,4\%) usam exclusivamente traces públicos já consolidados. As exceções são poucas e relevantes para esta pesquisa:
+\begin{itemize}
+  \item \citeonline{lin2025c} usam dados do sistema de monitoramento de um cluster virtualizado KVM, armazenados em um banco de séries temporais. O modelo é treinado offline, implantado com TensorFlow Serving em contêineres Docker e ajustado periodicamente com o fluxo de dados em tempo real. É o único estudo com implantação em produção em um data center corporativo próprio;
+  \item \citeonline{bawa2026} geram um dataset próprio executando aplicações em contêineres sobre VMs de diferentes plataformas;
+  \item \citeonline{kai2025} propõem um microsserviço de previsão que consulta periodicamente os dados do monitoramento de servidores;
+  \item \citeonline{qiu2026} combinam métricas e logs de 10.000 hosts de produção, e \citeonline{bao2022} usam dados da nuvem privada de uma concessionária de energia.
+\end{itemize}
+
+No pré-processamento prevalecem a normalização (Min-Max ou padronização), a reamostragem para granularidade fixa e o janelamento deslizante. Também aparecem a suavização com filtro Savitzky--Golay \cite{azarian2025}, a decomposição em tendência, sazonalidade e resíduo \cite{suo2025,liu2026,zheng2027}, a transformação para o domínio da frequência \cite{ye2025,zhang2026a,zhang2026b}, o tratamento de amostragem irregular \cite{song2026} e a imputação de valores ausentes \cite{lin2025c}. Somente \citeonline{lin2025c} descrevem o armazenamento (um banco de séries temporais). Os demais trabalham sobre arquivos de traces.
+
+% ---------------------------------------------------------------------
+\subsection{QP2 -- Tipos de ambiente}
+\label{subsec:map-qp2}
+
+A \autoref{fig:map-ambientes} mostra que o foco dos estudos está nos \textbf{traces de provedores de nuvem pública}: 21 estudos (39,6\%) usam dados do Google, da Alibaba, da Microsoft Azure ou da ByteDance. Outros 13 (24,5\%) usam os traces Bitbrains e Materna, do \textit{Grid Workloads Archive}, que registram VMs de provedores de hospedagem corporativa gerenciada. Esse é o tipo de carga mais próximo de um data center institucional virtualizado. Nove estudos (17,0\%) tratam de contêineres e microsserviços, geralmente sobre o trace da Alibaba ou sobre Kubernetes.
+
+\begin{figure}[htbp]
+\centering
+\caption{Distribuição dos estudos por tipo de ambiente}
+\label{fig:map-ambientes}
+\includegraphics[width=\textwidth]{\mappath figuras/fig_ambientes.pdf}
+\mapfonte{Fonte: Elaborado pelo autor (2026).}
+\end{figure}
+
+Ambientes privados e on-premise são raros. Há duas nuvens privadas \cite{bao2022,zhang2026a}, um ambiente multi data center \cite{sun2022} e um único data center on-premise com implantação real \cite{lin2025c}. Nenhum estudo integra plataformas de virtualização distintas, como VMware, Nutanix e Kubernetes, em um mesmo pipeline. Quando há mais de uma plataforma, como VMs da Azure e contêineres da Alibaba em \citeonline{denovi2026}, a integração ocorre no nível do modelo, por \textit{transfer learning}, e não no nível da coleta e da padronização. Quanto à origem dos dados (\autoref{fig:map-origem}), apenas 11 estudos (20,8\%) usam algum dado próprio ou de produção.
+
+\begin{figure}[htbp]
+\centering
+\caption{Origem dos dados utilizados nos experimentos}
+\label{fig:map-origem}
+\includegraphics[width=\textwidth]{\mappath figuras/fig_origem_dados.pdf}
+\mapfonte{Fonte: Elaborado pelo autor (2026).}
+\end{figure}
+
+O \autoref{qua:map-ambiente} detalha, por estudo, o ambiente, o conjunto de dados, o alvo de previsão e a granularidade.
+
+\input{\mappath tabelas/qua_ambiente_dados}
+
+% ---------------------------------------------------------------------
+\subsection{QP3 -- Linguagens, bibliotecas, ferramentas e conjuntos de dados}
+\label{subsec:map-qp3}
+
+Python é a linguagem dominante: está presente em 40 estudos (75,5\%) e é a provável linguagem dos demais, que não a informam. Entre os frameworks de aprendizado profundo, o PyTorch (18 estudos) superou o TensorFlow/Keras (13). Em 2025 os dois aparecem em proporção semelhante (5 e 6 estudos), mas em 2026 o PyTorch passa a predominar (11 contra 3), acompanhando a adoção das arquiteturas baseadas em Transformer. As bibliotecas auxiliares mais citadas são scikit-learn, Pandas/NumPy, statsmodels, Prophet e XGBoost (\autoref{fig:map-ferramentas}). O uso de GPU é relatado em 23 estudos (43,4\%).
+
+\begin{figure}[htbp]
+\centering
+\caption{Linguagens, bibliotecas e infraestrutura relatadas}
+\label{fig:map-ferramentas}
+\includegraphics[width=\textwidth]{\mappath figuras/fig_ferramentas.pdf}
+\mapfonte{Fonte: Elaborado pelo autor (2026).}
+\end{figure}
+
+As ferramentas das etapas de coleta e visualização quase não aparecem. Nenhum estudo cita Prometheus, Zabbix, Grafana ou ferramentas nativas dos hipervisores como fonte de dados. A visualização limita-se a gráficos do Matplotlib e a um painel em Streamlit \cite{janjanam2023}. Kubernetes e Docker surgem como ambiente de implantação ou de teste do modelo, e não como fonte de métricas \cite{ye2025,mahbub2026,lin2025c}. Na prática, a literatura cobre bem a etapa de modelagem e deixa sem tratamento as etapas de coleta, padronização, armazenamento e apresentação, que esta pesquisa aborda.
+
+Quanto aos dados (\autoref{fig:map-datasets}), os traces do Google Cluster (20 estudos) e da Alibaba (19) são os mais usados, seguidos pelo Bitbrains (13), pela Azure (7) e pelo Materna (4). A granularidade de 5 minutos, nativa desses traces, é a mais comum (23 estudos). Dezenove estudos não informam a granularidade usada.
+
+\begin{figure}[htbp]
+\centering
+\caption{Conjuntos de dados utilizados nos estudos}
+\label{fig:map-datasets}
+\includegraphics[width=\textwidth]{\mappath figuras/fig_datasets.pdf}
+\mapfonte{Fonte: Elaborado pelo autor (2026).}
+\end{figure}
+
+\input{\mappath tabelas/qua_ferramentas}
+
+% ---------------------------------------------------------------------
+\subsection{QP4 -- Modelos de análise e algoritmos de predição}
+\label{subsec:map-qp4}
+
+A CPU é o alvo de previsão em 50 estudos (94,3\%) e a memória em 31 (58,5\%). Disco (7) e rede (8) aparecem sobretudo como covariáveis de modelos multivariados (\autoref{fig:map-alvos}).
+
+\begin{figure}[htbp]
+\centering
+\caption{Recursos usados como alvo de previsão}
+\label{fig:map-alvos}
+\includegraphics[width=\textwidth]{\mappath figuras/fig_alvos.pdf}
+\mapfonte{Fonte: Elaborado pelo autor (2026).}
+\end{figure}
+
+Quanto à abordagem (\autoref{fig:map-abordagens}), predominam os modelos \textbf{híbridos}: 24 estudos (45,3\%) combinam técnicas, entre híbridos de aprendizado profundo (19), híbridos estatístico + aprendizado profundo (2) e híbridos com metaheurísticas (3). Em seguida vêm as arquiteturas profundas únicas (15) e os estudos comparativos ou de \textit{benchmark} (9). A combinação mais recorrente associa uma etapa convolucional, que extrai padrões locais, a uma etapa recorrente ou de atenção, que modela dependências temporais. É o caso de CNN-LSTM \cite{ouhame2021,leka2021,kai2025}, CNN-LSTM com atenção \cite{nayak2025}, CNN-BiGRU com atenção \cite{lin2025c,azarian2025} e convoluções dilatadas com LSTM \cite{bhatia2025}.
+
+\begin{figure}[htbp]
+\centering
+\caption{Abordagem de modelagem adotada pelos estudos}
+\label{fig:map-abordagens}
+\includegraphics[width=\textwidth]{\mappath figuras/fig_abordagens.pdf}
+\mapfonte{Fonte: Elaborado pelo autor (2026).}
+\end{figure}
+
+A \autoref{fig:map-familias} conta as famílias de modelos presentes nas propostas. Um mesmo estudo pode combinar várias famílias. As redes recorrentes (LSTM, GRU e variantes) aparecem em 26 estudos (49,1\%) e os modelos baseados em Transformer ou atenção em 22 (41,5\%). A \autoref{fig:map-evolucao} mostra a mudança no tempo: até 2024 prevalecem LSTM/GRU, CNN e modelos estatísticos. A partir de 2025 crescem os Transformers especializados em séries longas (iTransformer, Informer, PatchTST), a decomposição e o domínio da frequência, além de famílias emergentes como espaço de estados/Mamba \cite{song2026,zhao2026}, grafos \cite{shi2026,huang2025}, modelos generativos \cite{sun2026} e grandes modelos de linguagem \cite{qiu2026}.
+
+\begin{figure}[htbp]
+\centering
+\caption{Famílias de modelos presentes nas propostas (um estudo pode combinar várias)}
+\label{fig:map-familias}
+\includegraphics[width=\textwidth]{\mappath figuras/fig_familias_modelos.pdf}
+\mapfonte{Fonte: Elaborado pelo autor (2026).}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\caption{Evolução das famílias de modelos por ano de publicação}
+\label{fig:map-evolucao}
+\includegraphics[width=\textwidth]{\mappath figuras/fig_evolucao_familias.pdf}
+\mapfonte{Fonte: Elaborado pelo autor (2026).}
+\end{figure}
+
+Os estudos que propõem um novo modelo relatam ganhos sobre os baselines, geralmente entre 5\% e 35\% de redução de erro. Esse resultado é esperado e tem pouco valor comparativo, pois os conjuntos de dados, os recortes e os horizontes variam entre os trabalhos. Os estudos comparativos independentes trazem evidências mais úteis para escolher um modelo:
+\begin{itemize}
+  \item modelos simples são competitivos: em \citeonline{naik2025}, Prophet e XGBoost superaram Informer, LSTM e GRU em RMSE; em \citeonline{kollu2024}, um MLP superou CNN e LSTM; e \citeonline{christofidi2023a} mostram que previsões de LSTM aparentemente precisas eram a série original deslocada em um passo, sem ganho real sobre um preditor persistente;
+  \item há uma relação de compromisso entre acurácia e custo: a LSTM foi a mais precisa em \citeonline{mamushiane2025}, mas o Random Forest ofereceu melhor equilíbrio com o custo computacional; em \citeonline{denovi2026}, a LSTM teve o melhor equilíbrio entre acurácia, latência (0,24~ms) e tamanho (201~KB) frente a Informer e TFT;
+  \item modelos gerais de séries longas superam modelos específicos de nuvem: \citeonline{lin2025a} mostram que modelos como PatchTST, DLinear e SegRNN superam consistentemente os modelos propostos especificamente para \textit{workload} de nuvem.
+\end{itemize}
+
+Nenhum estudo estima explicitamente o \textbf{tempo até o esgotamento da capacidade}. Todos preveem o valor futuro da utilização em horizontes curtos. A proposta mais próxima do planejamento de capacidade é a de \citeonline{jin2026}, que calibra assimetricamente o limite superior da previsão para reduzir a subestimação em períodos de alta carga, situação que leva ao subprovisionamento. O \autoref{qua:map-modelos} resume a abordagem, o modelo e o principal resultado de cada estudo. A \autoref{fig:map-baselines} mostra os baselines mais usados.
+
+\input{\mappath tabelas/qua_modelos}
+
+\begin{figure}[htbp]
+\centering
+\caption{Modelos mais utilizados como baseline de comparação}
+\label{fig:map-baselines}
+\includegraphics[width=\textwidth]{\mappath figuras/fig_baselines.pdf}
+\mapfonte{Fonte: Elaborado pelo autor (2026).}
+\end{figure}
+
+% ---------------------------------------------------------------------
+\subsection{QP5 -- Métricas e procedimentos de avaliação}
+\label{subsec:map-qp5}
+
+O MAE é a métrica mais usada (45 estudos, 84,9\%), seguido pelo MSE (37), pelo RMSE (28), pelo MAPE (19) e pelo R$^2$ (13), conforme a \autoref{fig:map-metricas}. Poucos estudos vão além do erro pontual. As exceções avaliam a incerteza da previsão \cite{rossi2025}, a taxa de subestimação em alta carga \cite{jin2026} ou o custo computacional, medido por latência de inferência e tamanho do modelo \cite{denovi2026,mamushiane2025}. Essas medidas são mais diretamente ligadas à decisão de capacidade do que as métricas médias de erro.
+
+\begin{figure}[htbp]
+\centering
+\caption{Métricas de avaliação empregadas}
+\label{fig:map-metricas}
+\includegraphics[width=\textwidth]{\mappath figuras/fig_metricas.pdf}
+\mapfonte{Fonte: Elaborado pelo autor (2026).}
+\end{figure}
+
+O protocolo de validação é a principal fragilidade metodológica do corpus (\autoref{fig:map-validacao}). Quarenta e oito estudos (90,6\%) usam uma única divisão cronológica (\textit{hold-out}) entre treino e teste, e apenas quatro separam explicitamente um conjunto de validação. \textbf{Nenhum estudo adota validação \textit{walk-forward} ou \textit{rolling origin}}, o procedimento recomendado para séries temporais. Somente \citeonline{pandeeswari2026} justificam a divisão cronológica como forma de evitar vazamento de dados (\textit{data leakage}), e só quatro estudos aplicam testes estatísticos de significância. Alguns trabalhos avaliam a sensibilidade ao tamanho da janela histórica e à proporção treino/teste \cite{ullah2023,naik2025} ou retreinam o modelo em janelas sucessivas \cite{jin2026}.
+
+\begin{figure}[htbp]
+\centering
+\caption{Procedimentos de validação dos modelos}
+\label{fig:map-validacao}
+\includegraphics[width=\textwidth]{\mappath figuras/fig_validacao.pdf}
+\mapfonte{Fonte: Elaborado pelo autor (2026).}
+\end{figure}
+
+Os horizontes de previsão são curtos (\autoref{fig:map-horizonte}). São 17 estudos de um passo à frente e 26 multi-step de curto prazo, em geral de minutos a poucas horas com dados de 5 minutos. Mesmo os 8 estudos classificados como de longo prazo projetam algumas centenas de passos, isto é, horas ou poucos dias. Nenhum projeta meses à frente, e as séries usadas raramente passam de 30 dias de histórico (Google 2019: 31 dias; Alibaba 2018: 8 dias; Bitbrains: 1 a 3 meses).
+
+\begin{figure}[htbp]
+\centering
+\caption{Horizonte de previsão adotado pelos estudos}
+\label{fig:map-horizonte}
+\includegraphics[width=\textwidth]{\mappath figuras/fig_horizonte.pdf}
+\mapfonte{Fonte: Elaborado pelo autor (2026).}
+\end{figure}
+
+A \autoref{tab:map-metricas} detalha, para cada estudo, as métricas, o procedimento de validação e o horizonte.
+
+\input{\mappath tabelas/tab_metricas_validacao}
+
+% ---------------------------------------------------------------------
+\subsection{QP6 -- Desafios, benefícios e maturidade}
+\label{subsec:map-qp6}
+
+O \autoref{qua:map-desafios} sintetiza os desafios recorrentes e as soluções propostas pelos estudos.
+
+\mapquadro{Desafios relatados e soluções propostas na literatura}{qua:map-desafios}
+{\footnotesize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.2}
+\begin{longtable}{p{3.5cm}p{7.2cm}p{4.4cm}}
+\toprule
+\textbf{Desafio} & \textbf{Soluções propostas} & \textbf{Estudos} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Desafio} & \textbf{Soluções propostas} & \textbf{Estudos} \\
+\midrule
+\endhead
+\bottomrule
+\multicolumn{3}{l}{Fonte: Elaborado pelo autor (2026).}\\
+\endlastfoot
+Não estacionariedade e \textit{distribution shift} & Aprendizado contrastivo, decomposição adaptativa, normalização de instância, retreino e ajuste fino contínuo & \cite{lin2025a,lv2026,zheng2027,zhang2026b,lin2025c} \\
+Picos e rajadas de carga & Patches adaptativos, atenção, calibração assimétrica do limite superior, correção de resíduos & \cite{zhao2026,jin2026,sanikal2026,ye2024} \\
+Múltiplas periodicidades sobrepostas & Domínio da frequência (FFT, DCT, wavelet), decomposição multiescala & \cite{ye2025,lin2025b,zhang2026a,pandeeswari2026,liu2026} \\
+Dependência entre recursos e instâncias & Modelos multivariados, grafos entre VMs, roteamento entre canais, aprendizado multitarefa & \cite{shetty2023,shi2026,mahbub2026,huang2025} \\
+Custo computacional e latência de inferência & Arquiteturas lineares ou leves, atenção esparsa, Mamba, comparação acurácia $\times$ custo & \cite{ye2025,suo2025,bhatia2025,xie2026,denovi2026,mamushiane2025} \\
+Pouco histórico em novos ambientes & \textit{Transfer learning}, modelos generalizados por grupo de máquinas & \cite{rossi2025,denovi2026,singh2024} \\
+Escolha do modelo e da janela & Seleção de modelo por padrão, janela deslizante adaptativa, ensembles com seleção dinâmica & \cite{christofidi2023b,lavanya2024,kang2024,bao2022} \\
+Ruído, lacunas e amostragem irregular & Filtro Savitzky--Golay, reamostragem adaptativa, imputação & \cite{azarian2025,song2026,lin2025c} \\
+Interpretabilidade e confiança & Explicabilidade (SHAP, LIME), previsões probabilísticas & \cite{bawa2026,rossi2025} \\
+Ilusão de acurácia & Comparação com preditor persistente e inspeção visual das previsões & \cite{christofidi2023a,jin2026} \\
+\end{longtable}
+}
+
+Os benefícios quantificados restringem-se, na maioria, à redução do erro de previsão. Apenas dois estudos medem efeitos operacionais. No \textit{autoscaling} proativo em Kubernetes, o Fremer reduziu a latência média em 18,8\% e o consumo de recursos em 2,35\% \cite{ye2025}, e o DeCoR reduziu a latência em 17,7\% e o consumo em 25,1\% em relação ao escalonamento reativo \cite{mahbub2026}. Entre os estudos em ambiente privado, o ensemble aplicado à nuvem de uma concessionária de energia reduziu o MAPE em cerca de 37\% (CPU), 34\% (memória) e 36\% (disco) frente ao modelo único \cite{bao2022}. Nenhum estudo traduz a previsão em indicadores financeiros, como custo por serviço ou impacto em CAPEX/OPEX, nem em apoio à decisão de aquisição de capacidade.
+
+A maturidade das soluções é baixa (\autoref{fig:map-maturidade}). São 39 experimentos offline (73,6\%), cinco estudos comparativos e cinco protótipos ou provas de conceito. Três estudos fazem implantação experimental ou estudo de caso, e apenas um descreve implantação em produção \cite{lin2025c}.
+
+\begin{figure}[htbp]
+\centering
+\caption{Nível de maturidade das soluções}
+\label{fig:map-maturidade}
+\includegraphics[width=\textwidth]{\mappath figuras/fig_maturidade.pdf}
+\mapfonte{Fonte: Elaborado pelo autor (2026).}
+\end{figure}
+
+% ---------------------------------------------------------------------
+\subsection{Lacunas identificadas e implicações para esta pesquisa}
+\label{subsec:map-lacunas}
+
+O \autoref{qua:map-lacunas} relaciona as lacunas observadas no mapeamento às decisões de projeto desta dissertação.
+
+\mapquadro{Lacunas da literatura e implicações para a arquitetura proposta}{qua:map-lacunas}
+{\footnotesize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.2}
+\begin{longtable}{p{0.6cm}p{6.4cm}p{8.0cm}}
+\toprule
+\textbf{\#} & \textbf{Lacuna (evidência)} & \textbf{Implicação para esta pesquisa} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{\#} & \textbf{Lacuna (evidência)} & \textbf{Implicação para esta pesquisa} \\
+\midrule
+\endhead
+\bottomrule
+\multicolumn{3}{l}{Fonte: Elaborado pelo autor (2026).}\\
+\endlastfoot
+L1 & Ambientes on-premise e privados são raros (3 de 53: duas nuvens privadas e um data center on-premise), e nenhum estudo integra plataformas heterogêneas (VMware, Nutanix, Kubernetes). & Justifica o modelo canônico e o pipeline de coleta multiplataforma como contribuição, avaliados em data center público real (CODATA). \\
+L2 & Coleta, padronização, armazenamento e visualização quase não são tratados (QP1 e QP3). & A arquitetura cobre o ciclo completo: coleta por APIs (Prism Central, vSphere, Prometheus), modelo canônico em PostgreSQL e painéis de \textit{showback}. \\
+L3 & 90,6\% usam \textit{hold-out} simples, e nenhum usa validação \textit{walk-forward}. & Adotar validação \textit{walk-forward} (janela expansiva), ajustando normalização e filtros apenas no treino de cada dobra para evitar vazamento de dados. \\
+L4 & Horizontes de minutos a dias; ninguém projeta meses nem estima o tempo até o esgotamento. & Alinhar o horizonte ao histórico disponível (por exemplo, 30 a 60 dias à frente com o histórico atual) e estender conforme a série cresce; reportar o tempo estimado até o esgotamento como saída de negócio. \\
+L5 & Métricas centradas no erro médio; pouca atenção à subestimação e à incerteza. & Complementar MAE/RMSE/R$^2$ com intervalos de previsão e com a taxa de subestimação em alta carga \cite{jin2026,rossi2025}; tratar séries ociosas (\textit{flatline}), em que MAPE e R$^2$ não se aplicam. \\
+L6 & Modelos simples são competitivos e há ilusão de acurácia \cite{christofidi2023a,naik2025}. & Incluir sempre baselines ingênuos (persistente, sazonal ingênuo) e estatísticos (ARIMA, Prophet) antes de LSTM/GRU. \\
+L7 & Híbridos convolucional + recorrente são a combinação mais frequente, e o pré-processamento muda o resultado por recurso. & Sustenta a hibridização seletiva observada nos experimentos parciais (1D-CNN para CPU; filtros estatísticos para memória e disco). \\
+L8 & Nenhum estudo converte a previsão em indicadores financeiros ou de decisão de compra. & Abre espaço para associar a previsão a custo por serviço e a apoio a CAPEX/OPEX, o que reforça o caráter orientado ao negócio. \\
+\end{longtable}
+}
+
+% ---------------------------------------------------------------------
+\subsection{Ameaças à validade}
+\label{subsec:map-ameacas}
+
+\textbf{Seleção}: a triagem combinou regras automáticas por palavras-chave com revisão manual. Um estudo relevante pode ter sido excluído por não usar o termo \textit{forecasting} no título (critério F1). Seis estudos elegíveis foram excluídos por indisponibilidade de texto completo, e um (IEEE~16) teve os dados extraídos apenas do resumo. \textbf{Extração}: a extração foi realizada por um único pesquisador. Para mitigar o viés, os campos foram registrados em planilha versionada, as categorias foram derivadas por regras explícitas e reproduzíveis, e os valores não informados pelos autores foram marcados como tal, sem inferência. \textbf{Cobertura}: as bases consultadas abrangem as principais editoras da área. A Web of Science contribuiu com poucos registros, e a literatura cinzenta e os preprints não foram considerados.

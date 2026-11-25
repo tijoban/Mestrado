@@ -1,0 +1,444 @@
+﻿id;criterio_checagem;motivo_checagem;titulo;ano;fonte;bases;doi
+IEE0189;A1;fora de nuvem/data center ou foco federado: edge;Decentralized Edge Workload Forecasting With Gossip Learning;2025;IEEE;IEEE;10.1109/tnsm.2025.3570450
+IEE0210;A1;fora de nuvem/data center ou foco federado: mecs;Uncertainty-Aware Forecasting of Computational Load in MECs Using Distributed Machine Learning: A Tokyo Case Study;2024;IEEE;IEEE;10.1109/icccn61486.2024.10637613
+SCO0149;A1;fora de nuvem/data center ou foco federado: compute continuum;Attention-Driven AI Model Generalization for Workload Forecasting in the Compute Continuum;2025;IEEE;IEEE, Scopus;10.1109/tmlcn.2025.3584009
+SCO0208;A1;fora de nuvem/data center ou foco federado: edge;Multilayer multivariate forecasting network for precise resource utilization prediction in edge data centers;2025;Scopus;Scopus;10.1016/j.future.2024.107692
+SCO0380;A1;fora de nuvem/data center ou foco federado: federated;P3Forecast: Personalized and Adaptive Cloud Workload Prediction via GAN-Based Federated Data Augmentation;2026;IEEE;IEEE, Scopus;10.1109/tpds.2026.3703090
+SCO0509;A1;fora de nuvem/data center ou foco federado: game server;The Analysis of Time Series Forecasting on Resource Provision of Cloud-based Game Servers;2021;IEEE;IEEE, Scopus;10.1109/bigdata52589.2021.9671521
+SCO0539;A1;fora de nuvem/data center ou foco federado: edge;A Collaborative Cloud-Edge Approach for Robust Edge Workload Forecasting;2025;IEEE;IEEE, Scopus;10.1109/tmc.2024.3502683
+SCO0568;A1;fora de nuvem/data center ou foco federado: vnf;Multivariate outlier filtering for A-NFVLearn: an advanced deep VNF resource usage forecasting technique;2023;Scopus;Scopus;10.1007/s11227-023-05283-3
+SCO0772;A1;fora de nuvem/data center ou foco federado: edge;ELASTIC: Edge Workload Forecasting based on Collaborative Cloud-Edge Deep Learning;2023;Scopus;Scopus;10.1145/3543507.3583436
+SCO0805;A1;fora de nuvem/data center ou foco federado: federated;Federated Learning for Workload Forecasting for Network Service Management;2025;IEEE;IEEE, Scopus;10.1109/mocast65744.2025.11083940
+IEE0269;A2;título sem nuvem/data center/VM/contêiner/servidor/CPU/memória;TFLLM4Load: Time-Frequency Enhanced LLM-Enabled Framework for Multi-Scale Workload Prediction with External Forecasting Priors;2026;IEEE;IEEE;10.1109/icws72778.2026.00117
+IEE0291;A2;título sem nuvem/data center/VM/contêiner/servidor/CPU/memória;LCPTCN: Lightweight Temporal Convolutional Network with Cross-Group Pruning for Dynamic Load Forecasting;2024;IEEE;IEEE;10.1109/iccnc63989.2024.00022
+SCO0306;A2;título sem nuvem/data center/VM/contêiner/servidor/CPU/memória;Tackling Workload Forecasting Challenges with an Offline-Online Dynamic Framework;2026;IEEE;IEEE, Scopus;10.1109/icde65706.2026.00270
+SCO0579;A2;título sem nuvem/data center/VM/contêiner/servidor/CPU/memória;Artificial Intelligence Workloads Forecasting based on Correlation Multi-channels Fusion;2024;IEEE;IEEE, Scopus;10.1109/iucc65928.2024.00024
+SCO0606;A2;título sem nuvem/data center/VM/contêiner/servidor/CPU/memória;Utility of Univariate Forecasting for Workload Metrics Predictions in Enterprise Applications;2023;Scopus;Scopus;10.5220/0012206600003598
+SCO0965;A2;título sem nuvem/data center/VM/contêiner/servidor/CPU/memória;Multiscale Representation Enhanced Temporal Flow Fusion Model for Long-Term Workload Forecasting;2024;ACM;ACM, Scopus;10.1145/3627673.3680072
+IEE0151;E2;título tem outro foco: availability;Resource Availability Forecasting for Federated Clouds;2023;IEEE;IEEE;10.1109/icepecc57281.2023.10209448
+IEE0262;E2;título tem outro foco: power;Ensemble Workload Prediction With Fluctuation Division Control in the Computing Power Network;2026;IEEE;IEEE;10.1109/tcc.2026.3660742
+IEE0268;E2;título tem outro foco: financ;Hybrid ML Driven Multi-Cloud Service Work Load Prediction For Financial Systems;2025;IEEE;IEEE;10.1109/icaft66710.2025.11452988
+IEE0387;E2;título tem outro foco: failure;Cloud Failure Prediction with Hierarchical Temporal Memory: An Empirical Assessment;2021;IEEE;IEEE;10.1109/icmla52953.2021.00130
+IEE0399;E2;título tem outro foco: runtime;Cloud Resource Utilization Prediction Using Runtime-Assembled Context-Specific Cooperative Artificial Neural Networks;2025;IEEE;IEEE;10.1109/icct67417.2025.11374113
+IEE0420;E2;título tem outro foco: green;Particle swarm optimization algorithm based RBF neural network prediction model for the load of green data center;2023;IEEE;IEEE;10.1049/icp.2023.2994
+SCO0013;E2;título tem outro foco: energy;A Comparative Study of Deep Learning Models for Energy-Aware Workload Prediction in Edge-Cloud Environments;2026;IEEE;IEEE, Scopus;10.1109/mercon71835.2026.11691333
+SCO0072;E2;título tem outro foco: cost;Enhancing SAP Cloud Optimization with Explainable AI: Cost Control, Workload Forecasting, and Performance Enhancement;2025;IEEE;IEEE, Scopus;10.1109/icici65870.2025.11069968
+SCO0075;E2;título tem outro foco: performance;Performance prediction and resource adaptive adjustment for cloud-native microservices;2025;Scopus;Scopus;10.1007/s10586-025-05437-3
+SCO0078;E2;título tem outro foco: energy;Machine Learning Methods for Workload Prediction and Energy Management in Cloud Resource Management;2026;Scopus;Scopus;10.1007/978-981-95-0626-2_3
+SCO0091;E2;título tem outro foco: carbon;Ainet0: AI Forecasting Based Carbon Neutral Cloud Resource Management for Net Zero Targets;2025;Scopus;Scopus;10.1002/ett.70166
+SCO0093;E2;título tem outro foco: financ;Adaptive Financial Infrastructure: A DevOps–Machine Learning Framework for Predictive Resource and Operational Optimization;2026;Scopus;Scopus;10.3390/systems14050549
+SCO0098;E2;título tem outro foco: performance;AI-Driven Performance Prediction in Hybrid Cloud Workloads Using Gradient Boosting Techniques;2025;IEEE;IEEE, Scopus;10.1109/i-smac65734.2025.11597639
+SCO0109;E2;título tem outro foco: privacy;FedMV: Multivariate Privacy Preserving Edge Workload Forecasting using Federated Learning;2026;Scopus;Scopus;10.1007/s10586-026-06053-5
+SCO0121;E2;título tem outro foco: energy;Optimizing Energy Efficiency in Cloud Environments Through Hybrid Workload Prediction Using CNN and LSTM;2025;IEEE;IEEE, Scopus;10.1109/mercon67903.2025.11217091
+SCO0132;E2;título tem outro foco: energy;Transformer Encoder-Based Workload Prediction for Peak-Aware Energy Efficiency in Edge Computing;2026;IEEE;IEEE, Scopus;10.1109/scse70081.2026.11499915
+SCO0143;E2;título tem outro foco: green;Using Foundation Models to Forecast the Workload of Edge Network Functions for Green Computing;2026;IEEE;IEEE, Scopus;10.1109/percomworkshops68308.2026.11585396
+SCO0189;E2;título tem outro foco: maintenance;Predictive Maintenance and Cooling Demand Forecasting in Data Centre Thermal Control Systems: A Hybrid Reinforcement Learning and AI Framework;2026;IEEE;IEEE, Scopus;10.1109/icosaas68663.2026.11648591
+SCO0221;E2;título tem outro foco: privacy;P3 Forecast: Personalized Privacy-Preserving Cloud Workload Prediction Based on Federated Generative Adversarial Networks;2025;IEEE;IEEE, Scopus;10.1109/ipdps64566.2025.00038
+SCO0240;E2;título tem outro foco: carbon;Optimized Resource Forecasting for Carbon-Intelligent Data Centers with TempoSight: A Hybrid Deep Learning Approach;2025;IEEE;IEEE, Scopus;10.1109/jiot.2025.3610895
+SCO0279;E2;título tem outro foco: green;A Machine Learning Approach to Predictthe Work load of Virtual Machinesin Green Cloud Computing;2025;Scopus;Scopus;10.1201/9781032659770-22
+SCO0286;E2;título tem outro foco: pricing;IaaS Capacity Planning with Multiple Pricing Models Using Predictive Heuristics;2025;IEEE;IEEE, Scopus;10.1109/cloudcom67567.2025.11331429
+SCO0308;E2;título tem outro foco: performance;"iDSRformer: Node Load Prediction Model for High-performance Computing Cluster; [iDSRformer: 高性能计算集群节点负载预测模型]";2026;Scopus;Scopus;10.11896/jsjkx.250600026
+SCO0311;E2;título tem outro foco: pue;Control-Aware Multi-Horizon PUE Forecasting for Coordinated Data Center Demand-Side Management and Microgrid Dispatch;2026;Scopus;Scopus;10.3390/en19163840
+SCO0339;E2;título tem outro foco: sustainab;MambaNet0: Mamba-Based Sustainable Cloud Resource Prediction Framework Towards Net Zero Goals;2025;Scopus;Scopus;10.3390/fi17100480
+SCO0375;E2;título tem outro foco: performance;CloudFormer: An Attention-based Performance Prediction for Public Clouds with Unknown Workload;2026;Scopus;Scopus;10.1109/ccgrid68966.2026.00069
+SCO0390;E2;título tem outro foco: vehic;High-Resolution Long-Term Load Forecasting for Large-Scale AI Data Centers and Electric Vehicles Using Weather Normalization and Scenario Analysis: A Jeju Island Case Study Based on the ERCOT Method;2026;Scopus;Scopus;10.1007/s42835-026-02874-x
+SCO0402;E2;título tem outro foco: performance;"Prediction of Resource Usage on High-performance Computing Platforms Based on ARIMA and LSTM; [基于A RI MA和L STM的高性能计算平台资源使用的预测研究]";2025;Scopus;Scopus;10.11896/jsjkx.241100174
+SCO0403;E2;título tem outro foco: anomal;Container Cluster CPU Anomaly Spike Prediction Using Prophet and LSTM Hybrid Forecasting Model;2026;IEEE;IEEE, Scopus;10.1109/ecie69549.2026.11565516
+SCO0434;E2;título tem outro foco: execution time;I/O-ETEM: An I/O-Aware Approach for Estimating Execution Time of Machine Learning Workloads;2025;Scopus;Scopus;10.1109/lca.2025.3620629
+SCO0453;E2;título tem outro foco: anomal;Anomaly-aware quantum convolutional neural network for carbon-efficient job arrival rate prediction in cloud computing;2026;Scopus;Scopus;10.1016/j.future.2025.108096
+SCO0454;E2;título tem outro foco: energy;Energy-aware cloud workload prediction method using machine learning techniques;2025;IEEE;IEEE, Scopus;10.1109/ines67149.2025.11078195
+SCO0490;E2;título tem outro foco: finops;FinOps-driven cloud cost optimization in electric vehicle telematics platforms: a longitudinal case study with demand-controlled forecasting;2027;Scopus;Scopus;10.1016/j.eswa.2026.133913
+SCO0494;E2;título tem outro foco: cost;A multiclass cost–latency aware framework for multi-tiered cloud storage optimization via access pattern forecasting;2026;Scopus;Scopus;10.1016/j.comcom.2026.108437
+SCO0498;E2;título tem outro foco: sustainab;SpectraNet: a lightweight hybrid time–frequency deep learning framework for sustainable cloud workload forecasting;2025;WoS;WoS, Scopus;10.1186/s13677-025-00815-z
+SCO0507;E2;título tem outro foco: 6g;XAI-driven Model Design for Resource Utilization Forecasting in Cloud-native 6G Networks;2024;IEEE;IEEE, Scopus;10.1109/meditcom61057.2024.10621360
+SCO0520;E2;título tem outro foco: wireless;A private strategy for workload forecasting on large-scale wireless networks;2021;Scopus;Scopus;10.3390/info12120488
+SCO0521;E2;título tem outro foco: performance;Ensemble Prediction of Job Resources to Improve System Performance for Slurm-Based HPC Systems;2021;Scopus;Scopus;10.1145/3437359.3465574
+SCO0543;E2;título tem outro foco: performance;PredictDDL: Reusable Workload Performance Prediction for Distributed Deep Learning;2023;Scopus;Scopus;10.1109/cluster52292.2023.00009
+SCO0546;E2;título tem outro foco: power;Multimodal cloud resources utilization forecasting using a Bidirectional Gated Recurrent Unit predictor based on a power efficient Stacked denoising Autoencoders;2022;Scopus;Scopus;10.1016/j.aej.2022.05.017
+SCO0552;E2;título tem outro foco: sustainab;A System for Sustainable Usage of Computing Resources Leveraging Deep Learning Predictions;2022;Scopus;Scopus;10.3390/app12178411
+SCO0559;E2;título tem outro foco: performance;Performance Assessment of Time Series Forecasting Models for Cloud Datacenter Networks’ Workload Prediction;2021;WoS;WoS, Scopus;10.1007/s11277-020-07773-6
+SCO0587;E2;título tem outro foco: energy;Workload forecasting and energy state estimation in cloud data centres: ML-centric approach;2022;Scopus;Scopus;10.1016/j.future.2021.10.019
+SCO0589;E2;título tem outro foco: aging;Leveraging Imbalance and Ensemble Learning Methods for Improved Load Prediction in Cloud Computing Systems;2023;Scopus;Scopus;10.1109/globecom54140.2023.10436958
+SCO0613;E2;título tem outro foco: attack;Robustness of Workload Forecasting Models in Cloud Data Centers: A White-Box Adversarial Attack Perspective;2024;IEEE;IEEE, Scopus;10.1109/access.2024.3385863
+SCO0624;E2;título tem outro foco: anomal;Signature-based Adaptive Cloud Resource Usage Prediction Using Machine Learning and Anomaly Detection;2024;Scopus;Scopus;10.1007/s10723-024-09764-4
+SCO0651;E2;título tem outro foco: performance;Performance evaluation of metaheuristics algorithms for workload prediction in cloud environment;2021;Scopus;Scopus;10.1016/j.asoc.2021.107895
+SCO0653;E2;título tem outro foco: aging;GMM-LSTM: a component driven resource utilization prediction model leveraging LSTM and gaussian mixture model;2023;Scopus;Scopus;10.1007/s10586-022-03747-4
+SCO0677;E2;título tem outro foco: failure;Predicting GPU Failures With High Precision Under Deep Learning Workloads;2023;Scopus;Scopus;10.1145/3579370.3594777
+SCO0731;E2;título tem outro foco: performance;Advanced Deep Learning Techniques for Workload Forecasting in Fog Computing, Elevating Performance Efficiency;2024;IEEE;IEEE, Scopus;10.1109/icec59683.2024.10837478
+SCO0752;E2;título tem outro foco: performance;Comparative Analysis of ARIMA Time Series Model and Other Techniques for Cloud Workloads Performance Prediction;2024;Scopus;Scopus;10.1007/978-981-99-9707-7_32
+SCO0755;E2;título tem outro foco: privacy;Edge Resource Prediction and Auction for Distributed Spatial Crowdsourcing With Differential Privacy;2022;Scopus;Scopus;10.1109/jiot.2022.3183006
+SCO0765;E2;título tem outro foco: green;Deep learning-based multivariate resource utilization prediction for hotspots and coldspots mitigation in green cloud data centers;2022;Scopus;Scopus;10.1007/s11227-021-04107-6
+SCO0778;E2;título tem outro foco: performance;Long-Term Prediction of Cloud Resource Usage in High-Performance Computing;2023;Scopus;Scopus;10.1007/978-3-031-36021-3_53
+SCO0792;E2;título tem outro foco: aging;Leveraging Sparse Auto-Encoding and Dynamic Learning Rate for Efficient Cloud Workloads Prediction;2023;IEEE;IEEE, Scopus;10.1109/access.2023.3289884
+SCO0794;E2;título tem outro foco: aging;An effective deep learning architecture leveraging BIRCH clustering for resource usage prediction of heterogeneous machines in cloud data center;2024;Scopus;Scopus;10.1007/s10586-023-04258-6
+SCO0802;E2;título tem outro foco: power;Workload prediction for enhancing power efficiency of cloud data centers using optimized self-attention-based progressive generative adversarial network;2024;Scopus;Scopus;10.1002/dac.5634
+SCO0834;E2;título tem outro foco: runtime;A Hybrid Hierarchical Time Series Model for Predicting HPC Job Runtime;2025;Scopus;Scopus;10.1109/icccs65393.2025.11069971
+SCO0847;E2;título tem outro foco: energy;Energy optimisation in cloud datacentres with MC-TIDE: Mixed Channel Time-series Dense Encoder for workload forecasting;2024;WoS;WoS, Scopus;10.1016/j.apenergy.2024.123903
+SCO0862;E2;título tem outro foco: anomal;Enhancing Long-Term Cloud Workload Forecasting Framework: Anomaly Handling and Ensemble Learning in Multivariate Time Series;2024;WoS;WoS, IEEE, Scopus;10.1109/tcc.2024.3400859
+SCO0876;E2;título tem outro foco: performance;Deep Learning-based Workload Prediction in Cloud Computing to Enhance the Performance;2023;IEEE;IEEE, Scopus;10.1109/icsccc58608.2023.10176790
+SCO0891;E2;título tem outro foco: energy;Workload Prediction and VM Clustering Based Server Energy Optimization in Enterprise Cloud Data Center;2022;Scopus;Scopus;10.1007/978-3-030-95391-1_19
+SCO0906;E2;título tem outro foco: sustainab;COSCO2: AI-augmented evolutionary algorithm based workload prediction framework for sustainable cloud data centers;2023;Scopus;Scopus;10.1002/ett.4652
+SCO0908;E2;título tem outro foco: ran;Workload Prediction of Virtualized RAN in the Edge Micro Data Center: An Experimental Progress;2023;IEEE;IEEE, Scopus;10.1109/cscn60443.2023.10453198
+SCO0909;E2;título tem outro foco: carbon;Cloud computing load prediction method based on CNN-BiLSTM model under low-carbon background;2024;Scopus;Scopus;10.1038/s41598-024-68339-1
+SCO0911;E2;título tem outro foco: performance;Performance Analysis of Machine Learning Centered Workload Prediction Models for Cloud;2023;IEEE;IEEE, Scopus;10.1109/tpds.2023.3240567
+SCO0953;E2;título tem outro foco: runtime;TimeLink: enabling dynamic runtime prediction for Flink iterative jobs;2024;Scopus;Scopus;10.1007/s11227-024-06085-x
+SCO0958;E2;título tem outro foco: performance;Performance and Energy Savings Trade-Off with Uncertainty-Aware Cloud Workload Forecasting;2023;IEEE;IEEE, Scopus;10.1109/icnp59255.2023.10355570
+IEE0025;E3;título trata de overcommit;Forecasting and Overcommit Pipelines for Cloud Storage: A Model for Persistent Disk Capacity Management;2026;IEEE;IEEE;10.1109/icaic67076.2026.11395744
+IEE0146;E3;título trata de orchestrat;ChameleonEdge: Context-Aware Workload Prediction Framework with λ-Adaptive Resource Orchestration for Edge-Cloud Systems;2025;IEEE;IEEE;10.1109/iccams65118.2025.11234128
+IEE0194;E3;título trata de colocat;Enhanced-XGB: An Online Service Resource Demand Forecasting Method for Colocation Data Centers;2021;IEEE;IEEE;10.1109/ccgrid51090.2021.00053
+IEE0418;E3;título trata de offload;Research on GRU-Based Load Prediction Method for Vehicular Network Servers in a Multi-Task Offloading Environment;2024;IEEE;IEEE;10.1109/iccea62105.2024.10603812
+IEE0446;E3;título trata de offload;Load-Forecast-Enhanced Deep Reinforcement Learning for Task Offloading in Vehicular Edge Computing;2026;IEEE;IEEE;10.1109/aiotc71250.2026.11688701
+SCO0023;E3;título trata de allocat;Optimizing Cloud Resource Allocation with Predictive Big Data Models;2026;IEEE;IEEE, Scopus;10.1109/icciaa68481.2026.11543676
+SCO0053;E3;título trata de schedul;Deep Learning-Powered Predictive Scheduling Framework for Efficient Cloud Resource Management;2026;IEEE;IEEE, Scopus;10.1109/iccces62661.2026.11436395
+SCO0065;E3;título trata de schedul;CPUSched-Forecast: Enhancing Scheduling via Time Series Prediction;2026;Scopus;Scopus;10.1007/978-3-032-11946-9_26
+SCO0122;E3;título trata de load balanc;IDBNWP: Improved deep belief network for workload prediction: Hybrid optimization for load balancing in cloud system;2025;Scopus;Scopus;10.1007/s11042-024-19495-z
+SCO0129;E3;título trata de allocat;Attention-based workload prediction and dynamic resource allocation for heterogeneous computing environments;2026;Scopus;Scopus;10.1038/s41598-026-38622-4
+SCO0147;E3;título trata de right-siz;Right-Sizing Recommendations (RSR): Cloud Workload Conformal Prediction for Virtual Machines in Data Center Operations;2025;IEEE;IEEE, Scopus;10.1109/wi-iat67162.2025.00037
+SCO0193;E3;título trata de schedul;Cloud Workload Forecasting via Latency-Aware Time Series Clustering-Based Scheduling Technique;2025;WoS;WoS, Scopus;10.1002/cpe.70151
+SCO0233;E3;título trata de orchestrat;Towards Carbon-Aware Container Orchestration: Predicting Workload Energy Consumption with Federated Learning;2025;Scopus;Scopus;10.1109/swc65939.2025.00082
+SCO0273;E3;título trata de placement;Predictive VM placement algorithm for resource optimization: leveraging deep learning forecasting and resource relationship modeling;2025;Scopus;Scopus;10.1080/1206212x.2025.2469918
+SCO0300;E3;título trata de schedul;Light GBM-Based Workload Forecasting and HDBSCAN-Driven Scheduling Optimization for Cloud Resource Management;2025;IEEE;IEEE, Scopus;10.1109/aisp68263.2025.11396149
+SCO0304;E3;título trata de schedul;Regime-Aware Resource Demand Forecasting for Cloud Scheduling: When History Beats ML and When ML Matters;2026;IEEE;IEEE, Scopus;10.1109/cloud72782.2026.00031
+SCO0319;E3;título trata de schedul;ISACPP: Interference-Aware Scheduling Approach for Deep Learning Training Workloads Based on Co-Location Performance Prediction;2025;Scopus;Scopus;10.1109/tpds.2025.3577796
+SCO0333;E3;título trata de schedul;An intelligent scheduling and resource prediction framework using multidimensional data streams and deep reinforcement learning;2026;Scopus;Scopus;10.1007/s00521-026-11917-3
+SCO0381;E3;título trata de allocat;Elastic cloud resource allocation using short-term Long short-term memory-based workload prediction;2025;Scopus;Scopus;10.1117/12.3060861
+SCO0388;E3;título trata de offload;Predicting task offloading requests and resource demands in IoT edge computing using hybrid deep learning model;2026;Scopus;Scopus;10.1186/s13677-026-00947-w
+SCO0431;E3;título trata de allocat;Research and Development of an Enterprise Operation Load Forecasting Model Optimization and Resource Dynamic Allocation System based on A Temporal Attention Mechanism;2026;IEEE;IEEE, Scopus;10.1109/icicacs68679.2026.11578559
+SCO0487;E3;título trata de allocat;Workload Prediction for Proactive Resource Allocation in Large-Scale Cloud-Edge Applications;2025;Scopus;Scopus;10.3390/electronics14163333
+SCO0506;E3;título trata de allocat;Optimizing Memory Allocation in Distributed Clusters with Predictive Modeling;2025;Scopus;Scopus;10.1109/bigdata66926.2025.11402160
+SCO0515;E3;título trata de placement;VNF Placement based on Resource Usage Prediction using Federated Deep Learning Techniques;2023;Scopus;Scopus;10.1109/fnwf58287.2023.10520540
+SCO0566;E3;título trata de allocat;Predictive Resource Allocation Strategies for Cloud Computing Environments Using Machine Learning;2023;Scopus;Scopus;10.52783/jes.692
+SCO0692;E3;título trata de schedul;Scheduled Sampling for Recursive Multi-Step GPU Temperature Forecasting;2024;IEEE;IEEE, Scopus;10.1109/icmla61862.2024.00147
+SCO0748;E3;título trata de schedul;Task Scheduling and Workload Forecasting Approach for Cloud Environments;2023;IEEE;IEEE, Scopus;10.1109/gcitc60406.2023.10426473
+SCO0806;E3;título trata de schedul;An effective algorithm for predicting load and dynamic task scheduling in cloud fog architecture for smart homes;2025;Scopus;Scopus;10.1504/ijcc.2025.145657
+SCO0836;E3;título trata de load balanc;A hybrid cloud load balancing and host utilization prediction method using deep learning and optimization techniques;2024;Scopus;Scopus;10.1038/s41598-024-51466-0
+SCO0852;E3;título trata de schedul;A Novel Hybrid BAT-PSO Approach for Task Scheduling and Workload Forecasting for Cloud Environments;2023;IEEE;IEEE, Scopus;10.1109/iscon57294.2023.10112207
+SCO0940;E3;título trata de allocat;Graph Deep Factors for Forecasting with Applications to Cloud Resource Allocation;2021;Scopus;Scopus;10.1145/3447548.3467357
+SCO0960;E3;título trata de load balanc;Deep Learning-Driven Workload Prediction and Optimization for Load Balancing in Cloud Computing Environment;2024;Scopus;Scopus;10.2478/cait-2024-0023
+SCO0259;E7;título foca SLA/QoS/SLO;Optimization of Resource Allocation Using SLA Violation Penalty and Workload Prediction in Cloud Datacenters;2027;Scopus;Scopus;10.1007/978-981-92-2600-9_6
+SCO0486;E7;título foca SLA/QoS/SLO;Transformer Driven Predictive Resource Allocation for SLA-Aware Cloud Computing;2026;IEEE;IEEE, Scopus;10.1109/icici68773.2026.11580413
+SCO0622;E7;título foca SLA/QoS/SLO;QoS-Aware Cloud Resource Prediction for Computing Services;2023;Scopus;Scopus;10.1109/tsc.2022.3164256
+SCO0650;E7;título foca SLA/QoS/SLO;Workload prediction for SLA performance in cloud environment: ESANN approach;2023;Scopus;Scopus;10.3233/idt-230101
+SCO0754;E7;título foca SLA/QoS/SLO;Cloud Resource Demand Prediction using Machine Learning in the Context of QoS Parameters;2021;Scopus;Scopus;10.1007/s10723-021-09561-3
+IEE0023;F1;título usa prediction, não forecasting;Time Series Predictions for Cloud Workloads: A Comprehensive Evaluation;2024;IEEE;IEEE;10.1109/sose62363.2024.00011
+IEE0040;F1;título usa prediction, não forecasting;Two Stage Decomposition with Hybrid BiLSTM-BiGRU Networks for Accurate and Efficient Data Center Workload Prediction;2026;IEEE;IEEE;10.1109/icssit69151.2026.11656392
+IEE0041;F1;título usa prediction, não forecasting;Assessment of Deep Sequence Models for Characterization and Prediction of Cloud Workloads;2022;IEEE;IEEE;10.1109/gcat55367.2022.9972080
+IEE0054;F1;título usa prediction, não forecasting;MSCNet: Multi-Scale Network With Convolutions for Long-Term Cloud Workload Prediction;2025;IEEE;IEEE;10.1109/tsc.2025.3536313
+IEE0076;F1;título usa prediction, não forecasting;Time-Frequency and Multi-Scale Learning Network for Long-Term Cloud Workload Prediction;2026;IEEE;IEEE;10.1109/tcc.2026.3697737
+IEE0081;F1;título usa prediction, não forecasting;Virtual Machine Resource Prediction Model Based on Deep Learning;2025;IEEE;IEEE;10.1109/cvidl65390.2025.11085593
+IEE0083;F1;título usa prediction, não forecasting;EN-Beats: A Novel Ensemble Learning-Based Method for Multiple Resource Predictions in Cloud;2023;IEEE;IEEE;10.1109/cloud60044.2023.00025
+IEE0131;F1;título usa prediction, não forecasting;Neural Network-based Prediction Method for Data Center Resource Utilization;2024;IEEE;IEEE;10.1109/actce65085.2024.00098
+IEE0160;F1;título usa prediction, não forecasting;Cloudformer: Contrastive Learning Based Cloud Workload Prediction;2024;IEEE;IEEE;10.1109/icet61945.2024.10672804
+IEE0172;F1;título usa prediction, não forecasting;Hypertuning GRU Neural Networks for Edge Resource Usage Prediction;2021;IEEE;IEEE;10.1109/iscc53001.2021.9631548
+IEE0173;F1;título usa prediction, não forecasting;A Multilevel Learning Model for Predicting CPU Utilization in Cloud Data Centers;2023;IEEE;IEEE;10.1109/dasc/picom/cbdcom/cy59711.2023.10361305
+IEE0183;F1;título usa prediction, não forecasting;Pattern Mining-Based Integrated Prediction Method for Cloud Workload;2024;IEEE;IEEE;10.1109/ngdn61651.2024.10744135
+IEE0188;F1;título usa prediction, não forecasting;An Attention-based GRU Encoder Decoder for Hostload Prediction in a Data Center;2021;IEEE;IEEE;10.1109/ccai50917.2021.9447455
+IEE0191;F1;título usa prediction, não forecasting;Machine Learning Based Techniques for Workload Prediction in Serverless Environments;2023;IEEE;IEEE;10.1109/elexcom58812.2023.10370421
+IEE0208;F1;título usa prediction, não forecasting;Cloud Resource Demand Prediction Based on VMD-GRU-TCN Hybrid Model;2022;IEEE;IEEE;10.1109/bigcom57025.2022.00021
+IEE0218;F1;título usa prediction, não forecasting;An Online Model Integration Framework for Server Resource Workload Prediction;2021;IEEE;IEEE;10.1109/qrs54544.2021.00053
+IEE0230;F1;título usa prediction, não forecasting;Long Short-Term Memory Networks for Server Workload Prediction;2024;IEEE;IEEE;10.1109/iscv60512.2024.10620113
+IEE0233;F1;título usa prediction, não forecasting;Multi-Step Edge Cloud Load Prediction by Analyzing Behavior of Workload Groups;2023;IEEE;IEEE;10.1109/icpads60453.2023.00156
+IEE0236;F1;título usa prediction, não forecasting;PSO‐Based Hybrid Weighted k‐Nearest Neighbor Algorithm for Workload Prediction in Cloud Infrastructures;2022;IEEE;IEEE;10.1002/9781119884392.ch17
+IEE0244;F1;título usa prediction, não forecasting;COIN: A Container Workload Prediction Model Focusing on Common and Individual Changes in Workloads;2022;IEEE;IEEE;10.1109/tpds.2022.3202833
+IEE0253;F1;título usa prediction, não forecasting;Adaptive Resource Prediction in Containerized Cloud Environments with CNN-LSTM Optimized by SCA;2024;IEEE;IEEE;10.1109/icscan62807.2024.10894001
+IEE0282;F1;título usa prediction, não forecasting;Workload Prediction for Volatile Nodes in Multi-Access Edge Networks;2025;IEEE;IEEE;10.1109/icc52391.2025.11162043
+IEE0369;F1;título usa prediction, não forecasting;Real-Time Prediction of Docker Container Resource Load Based on a Hybrid Model of ARIMA and Triple Exponential Smoothing;2022;IEEE;IEEE;10.1109/tcc.2020.2989631
+IEE0382;F1;título usa prediction, não forecasting;Container Load Prediction Algorithm Based on ARIMA Model and BP Neural Network;2022;IEEE;IEEE;10.1109/iaeac54830.2022.9929476
+IEE0398;F1;título usa prediction, não forecasting;Predictive Disk Provisioning for Adjustable Cloud Storage Solutions;2023;IEEE;IEEE;10.1109/jcc59055.2023.00017
+IEE0411;F1;título usa prediction, não forecasting;Residual Connection based TPA-LSTM Networks for Cluster Node CPU Load Prediction;2021;IEEE;IEEE;10.1109/bigdata52589.2021.9671699
+IEE0491;F1;título usa prediction, não forecasting;Heterogeneous Cloud Load Prediction via a Global Information Guided Lightweight TCN;2026;IEEE;IEEE;10.1109/icc59461.2026.11587305
+IEE0532;F1;título usa prediction, não forecasting;RESCAPE: A Resource Estimation System for Microservices with Graph Neural Network and Profile Engine;2024;IEEE;IEEE;10.1109/jcc62314.2024.00013
+SCO0027;F1;título usa prediction, não forecasting;A Hybrid VMD-TCN-GRU Model with Attention for Cloud Workload Prediction;2026;IEEE;IEEE, Scopus;10.1109/cnml68938.2026.11452481
+SCO0031;F1;título usa prediction, não forecasting;A hybrid neural network and cooperative PSO model for dynamic cloud workloads prediction;2025;Scopus;Scopus;10.1007/s00607-025-01434-x
+SCO0034;F1;título usa prediction, não forecasting;A Comprehensively Adaptive Architectural Optimization-Ingrained Quantum Neural Network Model for Cloud Workloads Prediction;2025;IEEE;IEEE, Scopus;10.1109/tnnls.2025.3577721
+SCO0042;F1;título usa prediction, não forecasting;FP-MLP: A Frequency Domain Patch-Based MLP Model for GPU-Dominated Cloud Workload Prediction;2025;IEEE;IEEE, Scopus;10.1109/tcc.2025.3620437
+SCO0060;F1;título usa prediction, não forecasting;Ksurf+: Attention Kalman Filter for Prediction Under Highly Variable Cloud Workloads;2025;IEEE;IEEE, Scopus;10.1109/tcc.2025.3605828
+SCO0069;F1;título usa prediction, não forecasting;Predicting Cloud Workload Job Arrival Rates Using a Diffusion Autoformer Model;2025;IEEE;IEEE, Scopus;10.1109/bigdata66926.2025.11401693
+SCO0087;F1;título usa prediction, não forecasting;OCPNet: A deep learning model for online cloud load prediction;2025;Scopus;Scopus;10.1016/j.knosys.2025.113142
+SCO0100;F1;título usa prediction, não forecasting;Conditional skip liquid neural networks: an efficient inference framework for large-scale time-series cloud resource prediction;2026;Scopus;Scopus;10.1007/s00521-026-11850-5
+SCO0103;F1;título usa prediction, não forecasting;Eureka: Intelligent Feature Engineering for Enterprise AI Cloud Resource Demand Prediction;2026;Scopus;Scopus;10.1007/978-981-92-0378-9_33
+SCO0120;F1;título usa prediction, não forecasting;Cloud Computing Resource Load Prediction Model Based on TCN-PatchTST;2025;IEEE;IEEE, Scopus;10.1109/iccbdc67784.2025.00014
+SCO0124;F1;título usa prediction, não forecasting;Deep learning-based workload prediction and resource provisioning for mobile edge-cloud computing in healthcare applications;2025;Scopus;Scopus;10.1016/j.suscom.2025.101176
+SCO0131;F1;título usa prediction, não forecasting;PINE: Local patch reweighting and mixed independent neural encoder for datacentre workload prediction;2025;Scopus;Scopus;10.1016/j.neucom.2025.131170
+SCO0137;F1;título usa prediction, não forecasting;Dual-Stream Temporal Order-Aware Transformer for Consumer-Centric Cloud Workload Prediction;2026;IEEE;IEEE, Scopus;10.1109/tce.2026.3736071
+SCO0151;F1;título usa prediction, não forecasting;Hybrid Ensemble Approach for Accurate Workload Prediction in Dynamic Cloud Environments;2026;Scopus;Scopus;10.14445/23488549/ijece-v13i2p114
+SCO0155;F1;título usa prediction, não forecasting;CFL-LSTM: Collaborative Cloud Server Load Prediction Using Multi-Dimensional Time Series Correlation Analysis and LSTM;2026;IEEE;IEEE, Scopus;10.26599/bdma.2025.9020097
+SCO0161;F1;título usa prediction, não forecasting;Adaptive weighting hybrid deep learning with Savitzky-Golay filter and intrinsic mode functions for workload prediction in next-generation data centers;2026;Scopus;Scopus;10.1016/j.array.2026.100948
+SCO0162;F1;título usa prediction, não forecasting;Predictive Resource Management in the Computing Continuum: Transfer Learning from Virtual Machines to Containers using Transformers;2025;Scopus;Scopus;10.1145/3773274.3774856
+SCO0170;F1;título usa prediction, não forecasting;Optimization of Distinct Time-Series Neural Architectures for Cloud-Edge Workload Prediction;2025;IEEE;IEEE, Scopus;10.1109/icmlcn64995.2025.11140432
+SCO0171;F1;título usa prediction, não forecasting;Deep Learning Models for Workload Prediction in Virtual Machine Cloud Data Center;2025;IEEE;IEEE, Scopus;10.1109/conecct65861.2025.11306757
+SCO0181;F1;título usa prediction, não forecasting;Toward Effective Resource Prediction for Microservices via Heterogeneity Exploration Fully Investigating Services, Containers, and Nodes;2026;IEEE;IEEE, Scopus;10.1109/icws72778.2026.00089
+SCO0185;F1;título usa prediction, não forecasting;Neuro-Symbolic Ensemble Architecture (NSEA) for Adaptive Workload Prediction in Containerized Cloud Environments;2025;IEEE;IEEE, Scopus;10.1109/bigdata66926.2025.11400807
+SCO0212;F1;título usa prediction, não forecasting;The CPU Utilization Prediction Method Based on RF-Optuna-LightGBM;2025;IEEE;IEEE, Scopus;10.1109/iaecst68792.2025.11415251
+SCO0223;F1;título usa prediction, não forecasting;TCformer: Fine-Grained Cloud Workload Prediction via Multi-Scale Convolution and Channel-Aware Temporal Attention;2026;IEEE;IEEE, Scopus;10.1109/tcc.2026.3700214
+SCO0230;F1;título usa prediction, não forecasting;Enhanced GRU Model for Predicting Heterogeneous Machine Resource Usage in Cloud Data Centers;2025;IEEE;IEEE, Scopus;10.1109/iciscae66104.2025.11307692
+SCO0238;F1;título usa prediction, não forecasting;Adaptive ProbSparse-Attention with Generative Decoding for Cloud Workload Prediction;2025;IEEE;IEEE, Scopus;10.1109/raiic65850.2025.11170293
+SCO0242;F1;título usa prediction, não forecasting;Integrating Narrow-Deep Local and Wide-Shallow Global Convolutional Model for Cloud Workload Prediction;2025;Scopus;Scopus;10.1007/978-981-96-6599-0_29
+SCO0244;F1;título usa prediction, não forecasting;AS-ODB: Multivariate Attention Supervised Learning Based Optimized DBN Approach for Cloud Workload Prediction;2025;Scopus;Scopus;10.3103/s1060992x25700122
+SCO0252;F1;título usa prediction, não forecasting;Workload Prediction in Cloud Environment: A Comparative Study of Temporal Convolutional Networks and Hybrid Deep Learning Models;2026;IEEE;IEEE, Scopus;10.1109/scse70081.2026.11499777
+SCO0255;F1;título usa prediction, não forecasting;Self-supervised multi-scale cloud workload prediction with time series data augmentation;2026;Scopus;Scopus;10.1016/j.neunet.2026.109034
+SCO0263;F1;título usa prediction, não forecasting;Optimizing AWS Cloud Resource Management: Predicting EC2 Instance CPU Utilization using LSTM and ARIMA Models;2025;Scopus;Scopus;10.28924/2291-8639-23-2025-261
+SCO0266;F1;título usa prediction, não forecasting;DynEformer: A Unified Framework for Robust Workload Prediction under Dynamic Environment;2026;IEEE;IEEE, Scopus;10.1109/tkde.2026.3689812
+SCO0270;F1;título usa prediction, não forecasting;Efficient Kalman filter based deep learning approaches for workload prediction in cloud and edge environments;2025;Scopus;Scopus;10.1007/s00607-024-01373-z
+SCO0276;F1;título usa prediction, não forecasting;Quantum-Inspired Neural Pipeline for Predictive Cloud Resource Optimization;2026;Scopus;Scopus;10.1109/icscai68849.2026.11648520
+SCO0287;F1;título usa prediction, não forecasting;Machine learning-centric prediction and decision based resource management in cloud computing environments;2025;Scopus;Scopus;10.1007/s10586-024-04787-8
+SCO0288;F1;título usa prediction, não forecasting;DEL4CW: Deep Expansion Learning for Cloud Workloads Prediction;2026;Scopus;Scopus;10.1145/3797952
+SCO0294;F1;título usa prediction, não forecasting;An LSTM-Based Resource Prediction Model in Google Cloud Data Center;2026;Scopus;Scopus;10.1155/acis/1160180
+SCO0305;F1;título usa prediction, não forecasting;Multi-Scale temporal modeling via STL decomposition and dual-Transformer for resource prediction;2026;Scopus;Scopus;10.1016/j.future.2025.108323
+SCO0309;F1;título usa prediction, não forecasting;Dynamic machine learning approach for workload prediction in cloud environments;2026;Scopus;Scopus;10.1038/s41598-026-40777-z
+SCO0316;F1;título usa prediction, não forecasting;Robust prediction of massive short cloud workloads using online meta learning;2026;Scopus;Scopus;10.1016/j.ins.2026.123617
+SCO0322;F1;título usa prediction, não forecasting;Enhanced Workload Prediction in Data Centers Using Two-Stage Decomposition and Hybrid Parallel Deep Learning;2025;IEEE;IEEE, Scopus;10.1109/access.2025.3558743
+SCO0348;F1;título usa prediction, não forecasting;Cloud Computing Resource Prediction Based on Adaptive Selection of Multiple Machine Learning Methods;2025;Scopus;Scopus;10.1145/3711129.3711277
+SCO0352;F1;título usa prediction, não forecasting;DBDW: A Dual-Branch Database Workload Prediction Model;2026;Scopus;Scopus;10.6180/jase.202607_30.026
+SCO0355;F1;título usa prediction, não forecasting;STiFF-Net: Spatial-Temporal Insights via Image-Driven Feature Fusion for Workload Prediction in Intelligent Cloud Data Centers;2025;IEEE;IEEE, Scopus;10.1109/tcc.2025.3628344
+SCO0367;F1;título usa prediction, não forecasting;MGroup: Multi-Instance Workload Prediction Approach Based on Group Behavior Perception;2026;Scopus;Scopus;10.1109/tpds.2026.3677032
+SCO0374;F1;título usa prediction, não forecasting;Workload Prediction for Elasticity in Cloud with XGBoost;2026;IEEE;IEEE, Scopus;10.1109/icpc2t68221.2026.11646212
+SCO0379;F1;título usa prediction, não forecasting;Deep Neural Architecture Combining Frequency and Attention Mechanisms for Cloud CPU Usage Prediction;2025;IEEE;IEEE, Scopus;10.1109/iscipt67144.2025.11264975
+SCO0391;F1;título usa prediction, não forecasting;A Multivariate Cloud Workload Prediction Method Integrating Convolutional Nonlinear Spiking Neural Model with Bidirectional Long Short-Term Memory;2026;Scopus;Scopus;10.1142/s0129065725500716
+SCO0404;F1;título usa prediction, não forecasting;Improving cloud resource management: an ensemble learning approach for workload prediction;2025;Scopus;Scopus;10.1007/s11227-025-07560-9
+SCO0417;F1;título usa prediction, não forecasting;OmniFORE: Attention-based Generalization Framework for Edge-Cloud Workload Predictions;2025;IEEE;IEEE, Scopus;10.1109/iscc65549.2025.11326455
+SCO0426;F1;título usa prediction, não forecasting;Symmetry-Aware Multi-Dimensional Attention Spiking Neural Network with Optimization Techniques for Accurate Workload and Resource Time Series Prediction in Cloud Computing Systems;2025;Scopus;Scopus;10.3390/sym17030383
+SCO0429;F1;título usa prediction, não forecasting;AI-Driven Predictive Provisioning for Resource Optimization in Cloud-Native Applications;2027;Scopus;Scopus;10.1007/978-3-032-31526-7_36
+SCO0446;F1;título usa prediction, não forecasting;Causality-Aware Graph Mixture of Experts for Accurate Multi-Cloud Workload Prediction;2026;IEEE;IEEE, Scopus;10.1109/tcc.2026.3689897
+SCO0448;F1;título usa prediction, não forecasting;Quantum Capsule Networks for Spatio-Temporal Cloud Workload Prediction;2026;Scopus;Scopus;10.1201/9781042001767-6
+SCO0452;F1;título usa prediction, não forecasting;Intelligent resource prediction for SAP HANA continuous integration build workloads;2026;Scopus;Scopus;10.1109/icst69053.2026.00088
+SCO0459;F1;título usa prediction, não forecasting;SDVformer: A Resource Prediction Method for Cloud Computing Systems;2025;Scopus;Scopus;10.32604/cmc.2025.064880
+SCO0471;F1;título usa prediction, não forecasting;Wavelet-enhanced Dual Branch Transformer for Accurate Cloud Workload Prediction;2025;ACM;ACM, Scopus;10.1145/3730436.3730513
+SCO0476;F1;título usa prediction, não forecasting;Optimized resource management in containerized clouds via Hierarchical Autoregressive Network based workload prediction;2025;Scopus;Scopus;10.1016/j.asoc.2025.113781
+SCO0489;F1;título usa prediction, não forecasting;MSTH-Former: Optimizing Workload Prediction in Edge-Cloud Continuum with Multi-Scale Temporal and Hierarchical Knowledge Convergence and Distillation;2025;Scopus;Scopus;10.1109/cloud67622.2025.00042
+SCO0493;F1;título usa prediction, não forecasting;LLM4Load-Turbo: A Prompt-Driven LLM Framework With Knowledge Distillation for Efficient Multi-Scale Workload Prediction;2026;IEEE;IEEE, Scopus;10.1109/tsc.2026.3675166
+SCO0501;F1;título usa prediction, não forecasting;BHyPreC: A Novel Bi-LSTM Based Hybrid Recurrent Neural Network Model to Predict the CPU Workload of Cloud Virtual Machine;2021;IEEE;IEEE, Scopus;10.1109/access.2021.3113714
+SCO0513;F1;título usa prediction, não forecasting;Load prediction optimization based on machine learning in cloud computing environment;2022;ACM;ACM, Scopus;10.1145/3573834.3574511
+SCO0518;F1;título usa prediction, não forecasting;NAARPreC: A Novel Approach for Adaptive Resource Prediction in Cloud;2023;Scopus;Scopus;10.1007/978-3-031-27609-5_1
+SCO0525;F1;título usa prediction, não forecasting;A machine learning-based framework for predicting game server load;2021;Scopus;Scopus;10.1007/s11042-020-10067-5
+SCO0526;F1;título usa prediction, não forecasting;An artificial bee colony algorithm with an adaptive search strategy selection mechanism and its application on workload prediction;2024;Scopus;Scopus;10.1016/j.cie.2024.109982
+SCO0535;F1;título usa prediction, não forecasting;Towards Workload Trend Time Series Probabilistic Prediction via Probabilistic Deep Learning;2023;Scopus;Scopus;10.1145/3609956.3609979
+SCO0540;F1;título usa prediction, não forecasting;A multi-output prediction model for physical machine resource usage in cloud data centers;2022;Scopus;Scopus;10.1016/j.future.2022.01.002
+SCO0545;F1;título usa prediction, não forecasting;GraphGRU: A Graph Neural Network Model for Resource Prediction in Microservice Cluster;2023;Scopus;Scopus;10.1109/icpads56603.2022.00071
+SCO0548;F1;título usa prediction, não forecasting;Workload time series prediction in storage systems: a deep learning based approach;2023;Scopus;Scopus;10.1007/s10586-020-03214-y
+SCO0551;F1;título usa prediction, não forecasting;Analytical Modeling and Prediction of Cloud Workload;2021;IEEE;IEEE, Scopus;10.1109/iccworkshops50388.2021.9473619
+SCO0556;F1;título usa prediction, não forecasting;Resource Usage Prediction Based on BILSTM-GRU Combination Model;2022;IEEE;IEEE, Scopus;10.1109/jcc56315.2022.00009
+SCO0564;F1;título usa prediction, não forecasting;Random Forest-based Load Prediction for Cloud Data Centers;2024;IEEE;IEEE, Scopus;10.1109/iciscae62304.2024.10761488
+SCO0565;F1;título usa prediction, não forecasting;Three-Way Ensemble Prediction for Workload in the Data Center;2022;Scopus;Scopus;10.1109/access.2022.3145426
+SCO0567;F1;título usa prediction, não forecasting;Research and Application of Edge Cloud Load Prediction Based on DR-STGNN?;2023;ACM;ACM, Scopus;10.1145/3627915.3628025
+SCO0575;F1;título usa prediction, não forecasting;An Efficient Adaptive Meta Learning Model Based VNFs Affinity for Resource Prediction Optimization in Virtualized Networks;2023;Scopus;Scopus;10.1007/s10922-023-09729-0
+SCO0585;F1;título usa prediction, não forecasting;Private Distributed Resource Management Data: Predicting CPU Utilization with Bi-LSTM and Federated Learning;2025;IEEE;IEEE, Scopus;10.1109/ccgrid64434.2025.00048
+SCO0593;F1;título usa prediction, não forecasting;Machine Utilization Prediction in Cloud Using Informer Model;2024;IEEE;IEEE, Scopus;10.1109/icuis64676.2024.10866319
+SCO0605;F1;título usa prediction, não forecasting;GROUP: An End-to-end Multi-step-ahead Workload Prediction Approach Focusing on Workload Group Behavior;2023;Scopus;Scopus;10.1145/3543507.3583460
+SCO0610;F1;título usa prediction, não forecasting;Smartpick: Workload Prediction for Serverless-enabled Scalable Data Analytics Systems;2023;Scopus;Scopus;10.1145/3590140.3592850
+SCO0614;F1;título usa prediction, não forecasting;Exploiting sequence characteristics for long-term workload prediction in cloud data centers;2024;Scopus;Scopus;10.1117/12.3032105
+SCO0615;F1;título usa prediction, não forecasting;TempoScale: A Cloud Workloads Prediction Approach Integrating Short-Term and Long-Term Information;2024;IEEE;IEEE, Scopus;10.1109/cloud62652.2024.00030
+SCO0617;F1;título usa prediction, não forecasting;CloudBruno: A Low-Overhead Online Workload Prediction Framework for Cloud Computing;2022;Scopus;Scopus;10.1109/ic2e55432.2022.00027
+SCO0623;F1;título usa prediction, não forecasting;Cloud Resources Usage Prediction Using Deep Learning Models;2023;Scopus;Scopus;10.1007/978-3-031-33743-7_36
+SCO0627;F1;título usa prediction, não forecasting;Multivariate Workload Aware Correlation Model for Container Workload Prediction;2023;IEEE;IEEE, Scopus;10.1109/icpads60453.2023.00144
+SCO0639;F1;título usa prediction, não forecasting;CANFIS: A Chaos Adaptive Neural Fuzzy Inference System for Workload Prediction in the Cloud;2022;Scopus;Scopus;10.1109/access.2022.3174061
+SCO0642;F1;título usa prediction, não forecasting;SARIMA Techniques for Predictive Resource Provisioning in Cloud Environments;2023;IEEE;IEEE, Scopus;10.1109/iccebs58601.2023.10449163
+SCO0646;F1;título usa prediction, não forecasting;A Multiple Controlled Toffoli Driven Adaptive Quantum Neural Network Model for Dynamic Workload Prediction in Cloud Environments;2024;IEEE;IEEE, Scopus;10.1109/tpami.2024.3402061
+SCO0661;F1;título usa prediction, não forecasting;Accurate Prediction of Workloads and Resources with Multi-Head Attention and Hybrid LSTM for Cloud Data Centers;2023;IEEE;IEEE, Scopus;10.1109/tsusc.2023.3259522
+SCO0664;F1;título usa prediction, não forecasting;Integrated deep learning method for workload and resource prediction in cloud systems;2021;Scopus;Scopus;10.1016/j.neucom.2020.11.011
+SCO0668;F1;título usa prediction, não forecasting;Partial Granger causality-based feature selection algorithm for workload prediction in cloud systems;2023;IEEE;IEEE, Scopus;10.1109/ictc58733.2023.10393047
+SCO0678;F1;título usa prediction, não forecasting;esDNN: Deep Neural Network Based Multivariate Workload Prediction in Cloud Computing Environments;2022;Scopus;Scopus;10.1145/3524114
+SCO0680;F1;título usa prediction, não forecasting;A graphical deep learning technique-based VNF dependencies for multi resource requirements prediction in virtualized environments;2024;Scopus;Scopus;10.1007/s00607-023-01225-2
+SCO0685;F1;título usa prediction, não forecasting;Host load prediction in cloud computing with Discrete Wavelet Transformation (DWT) and Bidirectional Gated Recurrent Unit (BiGRU) network;2023;Scopus;Scopus;10.1016/j.comcom.2022.11.018
+SCO0712;F1;título usa prediction, não forecasting;Ensemble CNN Attention-Based BiLSTM Deep Learning Architecture for Multivariate Cloud Workload Prediction;2023;Scopus;Scopus;10.1145/3571306.3571433
+SCO0714;F1;título usa prediction, não forecasting;A deep learning-based approach with PSO for workload prediction of containers in the cloud;2021;IEEE;IEEE, Scopus;10.1109/icait52638.2021.9702001
+SCO0719;F1;título usa prediction, não forecasting;Workload prediction over cloud server using time series data;2021;IEEE;IEEE, Scopus;10.1109/confluence51648.2021.9377032
+SCO0720;F1;título usa prediction, não forecasting;Microservice-Oriented Workload Prediction Using Deep Learning;2022;Scopus;Scopus;10.37190/e-inf220107
+SCO0722;F1;título usa prediction, não forecasting;Prediction of Resource Utilisation in Cloud Computing Using Machine Learning;2024;Scopus;Scopus;10.5220/0012742200003711
+SCO0724;F1;título usa prediction, não forecasting;An Ensemble Learning-Based HPC Multi-Resource Demand Prediction Model for Hybrid Clusters;2022;IEEE;IEEE, Scopus;10.1109/iccsmt58129.2022.00094
+SCO0727;F1;título usa prediction, não forecasting;Ksurf: Attention Kalman Filter and Principal Component Analysis for Prediction under Highly Variable Cloud Workloads;2024;IEEE;IEEE, Scopus;10.1109/eecsi63442.2024.10776180
+SCO0729;F1;título usa prediction, não forecasting;ETSA-LP: ENSEMBLE TIME-SERIES APPROACH FOR LOAD PREDICTION IN CLOUD;2024;Scopus;Scopus;10.31577/cai_2024_1_64
+SCO0733;F1;título usa prediction, não forecasting;Machine Learning Based Resource Utilization Prediction in the Computing Continuum;2023;IEEE;IEEE, Scopus;10.1109/camad59638.2023.10478387
+SCO0734;F1;título usa prediction, não forecasting;Resource Utilization Prediction in Cloud Computing using Hybrid Model;2021;Scopus;Scopus;10.14569/ijacsa.2021.0120447
+SCO0738;F1;título usa prediction, não forecasting;Research on Stacked Model for Cluster CPU Utilization Prediction Based on Butterworth Filter;2023;IEEE;IEEE, Scopus;10.1109/icbaie59714.2023.10281293
+SCO0744;F1;título usa prediction, não forecasting;Deep CNN and LSTM Approaches for Efficient Workload Prediction in Cloud Environment;2024;Scopus;Scopus;10.1016/j.procs.2024.04.250
+SCO0745;F1;título usa prediction, não forecasting;Data-Driven Adaptive Prediction of Cloud Resource Usage;2023;Scopus;Scopus;10.1007/s10723-022-09641-y
+SCO0746;F1;título usa prediction, não forecasting;Wasserstein Adversarial Transformer for Cloud Workload Prediction;2022;Scopus;Scopus;10.1609/aaai.v36i11.21509
+SCO0747;F1;título usa prediction, não forecasting;Enhanced Linear Regression Models for Resource Usage Prediction in Dynamic Cloud Environments;2024;Scopus;Scopus;10.14569/ijacsa.2024.0150107
+SCO0751;F1;título usa prediction, não forecasting;Multivariate workload and resource prediction in cloud computing using CNN and GRU by attention mechanism;2023;Scopus;Scopus;10.1007/s11227-022-04782-z
+SCO0767;F1;título usa prediction, não forecasting;Time series-based workload prediction using the statistical hybrid model for the cloud environment;2023;Scopus;Scopus;10.1007/s00607-022-01129-7
+SCO0768;F1;título usa prediction, não forecasting;E2LG: a multiscale ensemble of LSTM/GAN deep learning architecture for multistep-ahead cloud workload prediction;2021;Scopus;Scopus;10.1007/s11227-021-03723-6
+SCO0777;F1;título usa prediction, não forecasting;Cpu-based prediction with self organizing map in dynamic cloud data centers;2021;Scopus;Scopus;10.2174/2210327910666201216123246
+SCO0779;F1;título usa prediction, não forecasting;An Improved Sea Lion Optimization for Workload Elasticity Prediction with Neural Networks;2022;Scopus;Scopus;10.1007/s44196-022-00156-8
+SCO0780;F1;título usa prediction, não forecasting;An LSTM-based Approach for Predicting Resource Utilization in Cloud Computing;2022;Scopus;Scopus;10.1145/3568562.3568647
+SCO0782;F1;título usa prediction, não forecasting;ARIMA-Based and Multiapplication Workload Prediction with Wavelet Decomposition and Savitzky-Golay Filter in Clouds;2024;Scopus;Scopus;10.1109/tsmc.2023.3343925
+SCO0785;F1;título usa prediction, não forecasting;One for All: Unified Workload Prediction for Dynamic Multi-tenant Edge Cloud Platforms;2023;Scopus;Scopus;10.1145/3580305.3599453
+SCO0786;F1;título usa prediction, não forecasting;Workload Prediction of Virtual Machines Using Integrated Deep Learning Approaches Over Cloud Data Centers;2023;Scopus;Scopus;10.1007/978-981-19-5403-0_5
+SCO0796;F1;título usa prediction, não forecasting;STOWP: A light-weight deep residual network integrated windowing strategy for storage workload prediction in cloud systems;2022;Scopus;Scopus;10.1016/j.engappai.2022.105303
+SCO0801;F1;título usa prediction, não forecasting;Workload Prediction of Serverless Computing;2021;Scopus;Scopus;10.1145/3480001.3480016
+SCO0804;F1;título usa prediction, não forecasting;Resource Management Through Workload Prediction Using Deep Learning in Fog-Cloud Architecture;2024;Scopus;Scopus;10.1007/978-3-031-53728-8_20
+SCO0807;F1;título usa prediction, não forecasting;Bayesian Uncertainty Modelling for Cloud Workload Prediction;2022;IEEE;IEEE, Scopus;10.1109/cloud55607.2022.00018
+SCO0808;F1;título usa prediction, não forecasting;Workload Time Series Cumulative Prediction Mechanism for Cloud Resources Using Neural Machine Translation Technique;2022;Scopus;Scopus;10.1007/s10723-022-09607-0
+SCO0813;F1;título usa prediction, não forecasting;VTGAN: hybrid generative adversarial networks for cloud workload prediction;2023;Scopus;Scopus;10.1186/s13677-023-00473-z
+SCO0814;F1;título usa prediction, não forecasting;Online Adaptive Prediction Method for Cloud Computing Workloads with Bi-LSTM;2023;IEEE;IEEE, Scopus;10.1109/cei60616.2023.10527801
+SCO0816;F1;título usa prediction, não forecasting;MADC: Multi-scale Attention-based Deep Clustering for Workload Prediction;2021;Scopus;Scopus;10.1109/ispa-bdcloud-socialcom-sustaincom52081.2021.00052
+SCO0822;F1;título usa prediction, não forecasting;Unsupervised Modeling of Workloads as an Enabler for Supervised Ensemble-based Prediction of Resource Demands on a Cloud;2022;Scopus;Scopus;10.1007/978-981-16-8403-6_10
+SCO0835;F1;título usa prediction, não forecasting;A Deep Learning Prediction Approach for Machine Workload in Cloud Computing;2023;Scopus;Scopus;10.1109/docs60977.2023.10294685
+SCO0842;F1;título usa prediction, não forecasting;Deep Reinforcement Learning for Workload Prediction in Federated Cloud Environments;2023;Scopus;Scopus;10.3390/s23156911
+SCO0859;F1;título usa prediction, não forecasting;Multivariate Deep Learning Model For Workload Prediction In Cloud Computing;2021;IEEE;IEEE, Scopus;10.1109/ictc52510.2021.9620931
+SCO0866;F1;título usa prediction, não forecasting;Workload Prediction based on GRU-CNN in Cloud Environment;2022;IEEE;IEEE, Scopus;10.1109/icceai55464.2022.00104
+SCO0871;F1;título usa prediction, não forecasting;Using Machine Learning to Predict the Exact Resource Usage of Microservice Chains;2023;Scopus;Scopus;10.1145/3603166.3632166
+SCO0875;F1;título usa prediction, não forecasting;Towards Efficient Prediction of Computing Resource Usage Using Deep Learning Techniques;2022;IEEE;IEEE, Scopus;10.1109/saci55618.2022.9919541
+SCO0877;F1;título usa prediction, não forecasting;A deep learning-based resource usage prediction model for resource provisioning in an autonomic cloud computing environment;2022;Scopus;Scopus;10.1007/s00521-021-06665-5
+SCO0880;F1;título usa prediction, não forecasting;A self-Adaptive deep learning-based model to predict cloud workload;2023;Scopus;Scopus;10.14311/nnw.2023.33.010
+SCO0881;F1;título usa prediction, não forecasting;Accurate workload prediction for edge data centers: Savitzky-Golay filter, CNN and BiLSTM with attention mechanism;2022;Scopus;Scopus;10.1007/s10489-021-03110-x
+SCO0887;F1;título usa prediction, não forecasting;Graph Transformer and LSTM Attention for VNF Multi-Step Workload Prediction in SFC;2024;Scopus;Scopus;10.1109/tnsm.2024.3403714
+SCO0888;F1;título usa prediction, não forecasting;Cloud Workload Prediction Based on Bayesian-Optimized Autoformer;2024;Scopus;Scopus;10.14569/ijacsa.2024.01505104
+SCO0892;F1;título usa prediction, não forecasting;A new temporal locality-based workload prediction approach for SaaS services in a cloud environment;2022;Scopus;Scopus;10.1016/j.jksuci.2021.04.008
+SCO0898;F1;título usa prediction, não forecasting;An Improved LSTM-Based Prediction Approach for Resources and Workload in Large-Scale Data Centers;2024;Scopus;Scopus;10.1109/jiot.2024.3383512
+SCO0901;F1;título usa prediction, não forecasting;Prediction of Cloud Resources Demand Based on Hierarchical Pythagorean Fuzzy Deep Neural Network;2021;Scopus;Scopus;10.1109/tsc.2019.2906901
+SCO0903;F1;título usa prediction, não forecasting;Cloud Computing Based Workload Prediction Using Cluster Machine Learning Approach;2022;Scopus;Scopus;10.1007/978-981-19-2719-5_56
+SCO0907;F1;título usa prediction, não forecasting;Optimization of Cloud Computing Workload Prediction Model with Domain-based Feature Selection Method;2023;Scopus;Scopus;10.1109/icaiic57133.2023.10066959
+SCO0910;F1;título usa prediction, não forecasting;Multivariate Resource Usage Prediction With Frequency-Enhanced and Attention-Assisted Transformer in Cloud Computing Systems;2024;IEEE;IEEE, Scopus;10.1109/jiot.2024.3395610
+SCO0916;F1;título usa prediction, não forecasting;RPTCN: Resource Prediction for High-dynamic Workloads in Clouds based on Deep Learning;2021;Scopus;Scopus;10.1109/cluster48925.2021.00038
+SCO0917;F1;título usa prediction, não forecasting;An Integrated Deep Learning Prediction Approach for Efficient Modelling of Host Load Patterns in Cloud Computing;2023;Scopus;Scopus;10.1007/s10723-022-09639-6
+SCO0918;F1;título usa prediction, não forecasting;Automated Hyperparameter Tuning for Adaptive Cloud Workload Prediction;2023;Scopus;Scopus;10.1145/3603166.3632244
+SCO0920;F1;título usa prediction, não forecasting;WorkloadDiff: Conditional Denoising Diffusion Probabilistic Models for Cloud Workload Prediction;2024;IEEE;IEEE, Scopus;10.1109/tcc.2024.3461649
+SCO0922;F1;título usa prediction, não forecasting;A cloud computing load prediction hybrid model with adaptive weight strategy;2023;Scopus;Scopus;10.1007/s11760-022-02424-8
+SCO0926;F1;título usa prediction, não forecasting;Design and Evaluation of a Hierarchical Characterization and Adaptive Prediction Model for Cloud Workloads;2024;Scopus;Scopus;10.1109/tcc.2024.3393114
+SCO0927;F1;título usa prediction, não forecasting;Workload Prediction of Cloud Workflow Based on Graph Neural Network;2021;Scopus;Scopus;10.1007/978-3-030-87571-8_15
+SCO0930;F1;título usa prediction, não forecasting;CPU Usage Prediction Model: A Simplified VM Clustering Approach;2023;Scopus;Scopus;10.1007/978-3-031-35734-3_21
+SCO0931;F1;título usa prediction, não forecasting;Efficient resource utilization using multi-step-ahead workload prediction technique in cloud;2021;Scopus;Scopus;10.1007/s11227-021-03701-y
+SCO0932;F1;título usa prediction, não forecasting;Evaluation of Load Prediction Techniques for Distributed Stream Processing;2021;Scopus;Scopus;10.1109/ic2e52221.2021.00023
+SCO0937;F1;título usa prediction, não forecasting;Proactive Resource Management for Serverless Systems Using Deep Learning-Based Workload Prediction;2025;IEEE;IEEE, Scopus;10.1109/cbase67452.2025.11335468
+SCO0946;F1;título usa prediction, não forecasting;Adaptive Prediction of Resources and Workloads for Cloud Computing Systems with Attention-based and Hybrid LSTM;2022;IEEE;IEEE, Scopus;10.1109/smc53654.2022.9945419
+SCO0950;F1;título usa prediction, não forecasting;Adaptive Ensemble Learning-based Network Resource Workload Prediction for VNF Lifecycle Management;2022;IEEE;IEEE, Scopus;10.23919/apnoms56106.2022.9919992
+SCO0959;F1;título usa prediction, não forecasting;Cloud Workload Turning Points Prediction via Cloud Feature-Enhanced Deep Learning;2023;IEEE;IEEE, Scopus;10.1109/tcc.2022.3160228
+SCO0961;F1;título usa prediction, não forecasting;EFL-WP: Federated Learning-Based Workload Prediction in Inter-Cloud Environments;2022;Scopus;Scopus;10.1109/ijcnn55064.2022.9892264
+SCO0963;F1;título usa prediction, não forecasting;An attention-based recurrent neural network for resource usage prediction in cloud data center;2021;Scopus;Scopus;10.1088/1742-6596/2006/1/012007
+SCO0968;F1;título usa prediction, não forecasting;A Novel Hybrid Model for Docker Container Workload Prediction;2023;IEEE;IEEE, Scopus;10.1109/tnsm.2023.3248803
+SCO0969;F1;título usa prediction, não forecasting;Resource Demand Prediction of Cloud Workloads Using an Attention-based GRU Model;2021;IEEE;IEEE, Scopus;10.1109/msn53354.2021.00071
+SCO0970;F1;título usa prediction, não forecasting;Virtual machine workload prediction using deep learning;2024;Scopus;Scopus;10.1504/ijcc.2024.143524
+SCO0977;F1;título usa prediction, não forecasting;Cloud computing resource load prediction based on improved informer;2024;Scopus;Scopus;10.1117/12.3033383
+SCO0981;F1;título usa prediction, não forecasting;Resource-Based Prediction in Cloud Computing Using LSTM with Autoencoders;2023;Scopus;Scopus;10.1007/978-981-19-8669-7_23
+SCO0001;G1;previsão como parte de sistema de database-as-a-service;Encoder–decoder-based workload forecasting framework for database-as-a-service;2026;Scopus;Scopus;10.1007/s10115-026-02686-5
+SCO0022;G1;previsão como parte de sistema de aiops;HW-TCN-GRU: A Hybrid Seasonal Decomposition and Dilated Convolutional Gated Recurrent Framework for Periodic CPU Utilization Forecasting in AIOps;2026;IEEE;IEEE, Scopus;10.1109/etai68332.2026.11485327
+SCO0136;G1;previsão como parte de sistema de management;OMCR: An Online Multivariate Forecaster for Cloud Resource Management;2026;IEEE;IEEE, Scopus;10.1109/tkde.2025.3619097
+SCO0351;G1;previsão como parte de sistema de distribution;Hybrid LSTM-Based Forecasting for Efficient Workload Distribution in Multi-Tenant Clouds;2026;IEEE;IEEE, Scopus;10.1109/icicacs68679.2026.11578713
+SCO0387;G1;previsão como parte de sistema de resilient;Multi-VM-Workloads Learning-based Forecasting Model for Resilient Server Management in Industry Clouds;2025;Scopus;Scopus;10.1016/j.procs.2025.03.275
+SCO0432;G1;previsão como parte de sistema de kubernetes;AROF: adaptive resource optimization framework for Kubernetes cluster using workload forecasting;2025;Scopus;Scopus;10.1080/17445760.2025.2605532
+SCO0458;G1;previsão como parte de sistema de provision;Enhancing the output of time series forecasting algorithms for cloud resource provisioning;2025;Scopus;Scopus;10.1016/j.future.2025.107833
+SCO0475;G1;previsão como parte de sistema de aiops;An on-premise cloud-native AIOps infrastructure system with workload forecasting in Kubernetes;2026;Scopus;Scopus;10.1016/j.softx.2026.102622
+SCO0621;G1;previsão como parte de sistema de optimizing;Optimizing multi-time series forecasting for enhanced cloud resource utilization based on machine learning;2024;Scopus;Scopus;10.1016/j.knosys.2024.112489
+SCO0682;G1;previsão como parte de sistema de forecasting service;SUFS: A Generic Storage Usage Forecasting Service Through Adaptive Ensemble Learning;2023;IEEE;IEEE, Scopus;10.1109/icde55515.2023.00243
+SCO0715;G1;previsão como parte de sistema de management;Self directed learning based workload forecasting model for cloud resource management;2021;Scopus;Scopus;10.1016/j.ins.2020.07.012
+SCO0783;G1;previsão como parte de sistema de management;Workload Forecasting Model for Resource Management in Cloud Data Center;2024;Scopus;Scopus;10.1007/978-981-97-3180-0_26
+SCO0839;G1;previsão como parte de sistema de optimizing;Optimizing CPU Resources: A Deep Learning Approach for Usage Forecasting in Cloud Environments;2023;Scopus;Scopus;10.1145/3647444.3647869
+SCO0935;G1;previsão como parte de sistema de provision;NOVEL MACHINE LEARNING METHODOLOGY IN RESOURCE PROVISIONING FOR FORECASTING OF WORKLOAD IN DISTRIBUTED CLOUD ENVIRONMENT;2022;Scopus;Scopus;
+SCO0955;G1;previsão como parte de sistema de management;Time Series Forecasting using Facebook Prophet for Cloud Resource Management;2021;IEEE;IEEE, Scopus;10.1109/iccworkshops50388.2021.9473607
+SCO0956;G1;previsão como parte de sistema de optimizing;OPTIMIZING CLOUD RESOURCE UTILIZATION THROUGH MACHINE LEARNING FORECASTING;2024;Scopus;Scopus;
+IEE0004;I1;título não anuncia previsão de uso/demanda de recursos;Future Workload and Cloud Resource Usage: Insights from an Interpretable Forecasting Model;2024;IEEE;IEEE;10.1109/bigdata62323.2024.10825137
+IEE0022;I1;título não anuncia previsão de uso/demanda de recursos;Enhancing Cloud Performance with AI-Based Predictive Analytics;2025;IEEE;IEEE;10.1109/netcrypt65877.2025.11102149
+IEE0062;I1;título não anuncia previsão de uso/demanda de recursos;Risk-Calibrated Hybrid Forecasting for FinOps-Driven Cloud Cost Optimization of AI Workloads;2026;IEEE;IEEE;10.1109/aic70896.2026.11717210
+IEE0105;I1;título não anuncia previsão de uso/demanda de recursos;Enhancing Public Cloud Performance Forecasting with Advanced ML Techniques;2025;IEEE;IEEE;10.1109/icict64420.2025.11004895
+IEE0147;I1;título não anuncia previsão de uso/demanda de recursos;Forecasting Cyberattack Risk Scores for Hybrid Cloud Networks: A Machine Learning Approach;2025;IEEE;IEEE;10.1109/icecst66106.2025.11307536
+IEE0165;I1;título não anuncia previsão de uso/demanda de recursos;Regression Analysis of Predictions and Forecasts of Cloud Data Center KPIs Using the Boosted Decision Tree Algorithm;2023;IEEE;IEEE;10.1109/tbdata.2022.3230649
+IEE0175;I1;título não anuncia previsão de uso/demanda de recursos;AI-Driven Predictive Maintanence in Cloud Application;2026;IEEE;IEEE;10.1109/qpain69676.2026.11546285
+IEE0273;I1;título não anuncia previsão de uso/demanda de recursos;Cloud Computing Based Workload Optimization using Long Short Term Memory Algorithm;2022;IEEE;IEEE;10.1109/icstcee56972.2022.10099864
+IEE0340;I1;título não anuncia previsão de uso/demanda de recursos;AI-Driven Models for Predictive Cost Optimization in Multi-Tenant Cloud Environments;2025;IEEE;IEEE;10.1109/icetetsip64213.2025.11156419
+IEE0348;I1;título não anuncia previsão de uso/demanda de recursos;LightGBM-Based FinOps Cost Prediction and Optimization for Cloud Infrastructure;2026;IEEE;IEEE;10.1109/iccisd69924.2026.11731928
+IEE0350;I1;título não anuncia previsão de uso/demanda de recursos;DPS-LSTM: A Dual Prediction Strategy Using LSTM For Process And Storage Load Balancing In Containerized Cloud Environments;2026;IEEE;IEEE;10.1109/icoecit68303.2026.11497212
+IEE0353;I1;título não anuncia previsão de uso/demanda de recursos;Network Assurance in Intent Based Data Center Networking: A Domain Shift Approach;2025;IEEE;IEEE;10.1109/nof66640.2025.11223335
+IEE0357;I1;título não anuncia previsão de uso/demanda de recursos;AI-Driven Predictive Optimization for Data Center Efficiency: a Web-Based Calculator with Machine Learning Integration;2025;IEEE;IEEE;10.1109/ciacon65473.2025.11189752
+IEE0394;I1;título não anuncia previsão de uso/demanda de recursos;Implementation of the Fremer Model to Optimize Kubernetes Configuration in Concert Ticketing Application Deployment;2026;IEEE;IEEE;10.1109/iaict71158.2026.11620968
+IEE0395;I1;título não anuncia previsão de uso/demanda de recursos;Data-Related Parameter Selection for Training Deep Learning Models Predicting Application Performance Degradation in Clouds;2025;IEEE;IEEE;10.1109/tcc.2025.3570093
+IEE0430;I1;título não anuncia previsão de uso/demanda de recursos;An Incremental Learning Assurance Approach for Intent Based Networking Enabled Data Centers;2024;IEEE;IEEE;10.1109/iisa62523.2024.10786660
+IEE0540;I1;título não anuncia previsão de uso/demanda de recursos;An Explainable LSTM-Based Predictive and Severity-Aware Multi-Objective Load Balancing Framework for Edge–Cloud Smart Healthcare Systems;2026;IEEE;IEEE;10.1109/insect68872.2026.11663717
+SCO0011;I1;título não anuncia previsão de uso/demanda de recursos;Morpheus: Lightweight RTT prediction for performance-aware load balancing;2026;Scopus;Scopus;10.1016/j.future.2026.108452
+SCO0029;I1;título não anuncia previsão de uso/demanda de recursos;A Decision-Making Based Resource Provisioning Model in Cloud Computing Platform;2026;Scopus;Scopus;10.2174/0123520965415545251003095056
+SCO0032;I1;título não anuncia previsão de uso/demanda de recursos;Data Center Optimization with Digital Twins: A Predictive and Adaptive Approach;2025;IEEE;IEEE, Scopus;10.1109/globecom59602.2025.11431827
+SCO0037;I1;título não anuncia previsão de uso/demanda de recursos;Day-Ahead Adjustable Potential Forecasting of Data Centers Based on Graph Convolutional Networks;2025;Scopus;Scopus;10.1109/etfg61999.2025.11401895
+SCO0045;I1;título não anuncia previsão de uso/demanda de recursos;Causality-Aware Dual Graph Approach for Multi-Cloud Networking Forecasting;2026;IEEE;IEEE, Scopus;10.1109/tnse.2026.3691846
+SCO0047;I1;título não anuncia previsão de uso/demanda de recursos;Bridging the GPU Utilization Gap: Predictive Multi-Dimensional Resource Scheduling for AI Workloads;2026;Scopus;Scopus;10.1145/3767295.3803579
+SCO0057;I1;título não anuncia previsão de uso/demanda de recursos;Cloud Supply Chain Optimization using AI-driven Forecasting;2026;IEEE;IEEE, Scopus;10.1109/icsft66733.2026.11507034
+SCO0088;I1;título não anuncia previsão de uso/demanda de recursos;VTGAN based proactive VM consolidation in cloud data centers using value and trend approaches;2025;Scopus;Scopus;10.1038/s41598-025-04757-z
+SCO0092;I1;título não anuncia previsão de uso/demanda de recursos;Towards Intelligent FinOps: A Predictive Analytics Approach for Cloud Cost Management;2025;IEEE;IEEE, Scopus;10.1109/asiancon66527.2025.11280711
+SCO0106;I1;título não anuncia previsão de uso/demanda de recursos;Data-Filtered Prediction With Decomposition and Amplitude-Aware Permutation Entropy for Workload and Resource Utilization in Cloud Data Centers;2025;IEEE;IEEE, Scopus;10.1109/jiot.2024.3525301
+SCO0110;I1;título não anuncia previsão de uso/demanda de recursos;TransGRU-X – A fusion Seq2Seq network enhanced with multiresolution analysis and gating for forecasting of AI/ML workloads in cloud environments;2026;Scopus;Scopus;10.1177/10943420251399236
+SCO0112;I1;título não anuncia previsão de uso/demanda de recursos;DLPR: Deep Learning Based Predictive Replication for HDFS Using File Access Time Series;2026;Scopus;Scopus;10.1007/978-3-032-23304-2_13
+SCO0115;I1;título não anuncia previsão de uso/demanda de recursos;PefNet: Injecting Pre-learned Channel Dependence for Time Series Forecasting with Missing Data;2025;IEEE;IEEE, Scopus;10.1109/ijcnn64981.2025.11228474
+SCO0118;I1;título não anuncia previsão de uso/demanda de recursos;Performance assessment of time series forecasting models for simple network management protocol-based hypervisor data;2025;Scopus;Scopus;10.11591/ijai.v14.i2.pp1150-1163
+SCO0154;I1;título não anuncia previsão de uso/demanda de recursos;Augmenting Cloud Resource Management with the Necessary Amount of Machine Intelligence;2025;Scopus;Scopus;10.1007/978-3-031-90203-1_38
+SCO0172;I1;título não anuncia previsão de uso/demanda de recursos;Forecasting Node Availability for HPC Clusters Using Hybrid Deep Learning & Ensemble Models;2025;IEEE;IEEE, Scopus;10.1109/ic2sdt68218.2025.11383745
+SCO0179;I1;título não anuncia previsão de uso/demanda de recursos;Uncertainty-Aware Online Time Series Multi-Step Forecasting Framework in Cloud Systems;2026;IEEE;IEEE, Scopus;10.1109/tkde.2026.3674583
+SCO0182;I1;título não anuncia previsão de uso/demanda de recursos;LSTM-CNN for Real-Time Financial Forecasting on Cloud Infrastructure;2025;IEEE;IEEE, Scopus;10.1109/etncc66224.2025.11299567
+SCO0187;I1;título não anuncia previsão de uso/demanda de recursos;Balancing Compression and Prediction: A Hybrid Autoencoder-LSTM Framework for Cloud Workloads;2025;ACM;ACM, Scopus;10.1145/3773276.3774300
+SCO0191;I1;título não anuncia previsão de uso/demanda de recursos;TMPE: online power time-series forecasting via truncated Monte Carlo and prior experience replay;2026;Scopus;Scopus;10.1007/s11227-026-08882-y
+SCO0195;I1;título não anuncia previsão de uso/demanda de recursos;Macro-Micro Collaborative Learning for Logical Data Center Microservice Indicators Forecasting;2026;Scopus;Scopus;10.1145/3774904.3792125
+SCO0197;I1;título não anuncia previsão de uso/demanda de recursos;AmazonAICloud: proactive resource allocation using amazon chronos based time series model for sustainable cloud computing;2025;Scopus;Scopus;10.1007/s00607-025-01435-w
+SCO0211;I1;título não anuncia previsão de uso/demanda de recursos;PRESAGE: Uncertainty-Aware Predictive Elastic Scheduling for Cloud Analytics and GenAI Inference;2026;Scopus;Scopus;10.1109/access.2026.3734498
+SCO0217;I1;título não anuncia previsão de uso/demanda de recursos;Prediction-Enabled Resource Allocation for Air Quality Monitoring Using Temporal Convolutional Network-Based PM2.5 Forecasting Model in Cloud Datacenters;2025;Scopus;Scopus;10.1142/s0218126625501683
+SCO0222;I1;título não anuncia previsão de uso/demanda de recursos;ReBase: Prediction-driven scheduling with baseline-guided online correction for renewable-aware geo-distributed data centers;2026;Scopus;Scopus;10.1016/j.suscom.2026.101470
+SCO0241;I1;título não anuncia previsão de uso/demanda de recursos;Application of Neural Networks to Optimize Distributed Computing in Cloud and Edge Environments;2025;IEEE;IEEE, Scopus;10.1109/sist61657.2025.11139218
+SCO0256;I1;título não anuncia previsão de uso/demanda de recursos;Proactive Cloud Sizing Automation for Platform-as-a-Service using Historical Workload Analysis;2025;IEEE;IEEE, Scopus;10.1109/itis67966.2025.11308870
+SCO0257;I1;título não anuncia previsão de uso/demanda de recursos;PeakLife: Proactive VM Management via Joint Forecasting;2027;Scopus;Scopus;10.1007/978-3-032-35251-4_11
+SCO0265;I1;título não anuncia previsão de uso/demanda de recursos;"GreenWaveTransformer: A Lightweight Forecast-Driven Control Framework Toward Sustainable Data Center Management; [إطار تنبؤي منخفض الطاقة للتحكم الذكي في موارد مراكز البيانات المستدامة]";2026;Scopus;Scopus;10.21123/2411-7986.5418
+SCO0295;I1;título não anuncia previsão de uso/demanda de recursos;"Optimizing Cloud Resource Allocation; A Timeseries Forecasting Approach Using Cycleconsistent Adversarial Adaptation Network";2025;IEEE;IEEE, Scopus;10.1109/icdici66477.2025.11134886
+SCO0313;I1;título não anuncia previsão de uso/demanda de recursos;Right-Sizing Cloud Data Warehouses Under Asymmetric Loss via One-Sided Conformal Prediction;2026;IEEE;IEEE, Scopus;10.1109/access.2026.3704918
+SCO0326;I1;título não anuncia previsão de uso/demanda de recursos;Proactive PEDMS: a hybrid priority-aware reinforcement learning scheduler for microservice orchestration in edge-cloud environments;2026;Scopus;Scopus;10.1007/s10586-026-06636-2
+SCO0340;I1;título não anuncia previsão de uso/demanda de recursos;Proactive Resource Allocation Framework with SVM Regression for Cloud Environments;2026;Scopus;Scopus;10.1007/s42979-025-04541-w
+SCO0345;I1;título não anuncia previsão de uso/demanda de recursos;A Study on Production Forecasting Method for Offshore Complex Reservoirs Based on Clustering Analysis and Deep Learning;2026;Scopus;Scopus;10.1007/978-981-92-1839-4_25
+SCO0393;I1;título não anuncia previsão de uso/demanda de recursos;Resource Overcommitment with Granular and Pattern-Based Machine Learning Predictions;2025;IEEE;IEEE, Scopus;10.1109/bigdata66926.2025.11401586
+SCO0394;I1;título não anuncia previsão de uso/demanda de recursos;Forecasting Trends in Cloud-Edge Computing: Unleashing the Power of Attention Mechanisms;2025;IEEE;IEEE, Scopus;10.1109/mcom.001.2300583
+SCO0397;I1;título não anuncia previsão de uso/demanda de recursos;A Hybrid Scheduling for Multi-Objective Optimization using Prediction Approach;2025;Scopus;Scopus;10.1007/s10723-025-09809-2
+SCO0401;I1;título não anuncia previsão de uso/demanda de recursos;Cloud-Native Autonomous Control Plane using LLM for Self-Optimizing Microservices in Multi-Cloud Environments;2026;IEEE;IEEE, Scopus;10.1109/iccnct68477.2026.11590625
+SCO0436;I1;título não anuncia previsão de uso/demanda de recursos;Explainable AI (XAI) in Predictive Cloud Optimization: Cost, Workload and Performance;2025;IEEE;IEEE, Scopus;10.1109/southeastcon56624.2025.10971567
+SCO0456;I1;título não anuncia previsão de uso/demanda de recursos;Hyperpart-DL: An Intelligent Hypergraph Based Deduplicated Storage System Using DL;2026;Scopus;Scopus;10.1109/icdca69396.2026.11620556
+SCO0470;I1;título não anuncia previsão de uso/demanda de recursos;DNN-Schedule: A Predictive Scheduler for Minimizing Interference of Co-located DNN Workload;2025;Scopus;Scopus;10.1007/978-981-96-5032-3_2
+SCO0473;I1;título não anuncia previsão de uso/demanda de recursos;Evaluation-free Time-series Forecasting Model Selection via Meta-learning;2025;Scopus;Scopus;10.1145/3715149
+SCO0477;I1;título não anuncia previsão de uso/demanda de recursos;CDSFNet: cycle-anchored dual-spectrum forecasting with confidence-adaptive fusion for long-term multivariate time series;2026;Scopus;Scopus;10.1007/s11227-026-08925-4
+SCO0482;I1;título não anuncia previsão de uso/demanda de recursos;Intelligent Prediction and Dynamic Scheduling Optimization Strategy for Cloud Computing Resources under Burst Load Scenarios;2025;ACM;ACM, Scopus;10.1145/3778450.3778459
+SCO0497;I1;título não anuncia previsão de uso/demanda de recursos;AI-Enabled Unified Multi-Cloud Analytics for Audit Transparency and Predictive Risk Forecasting;2026;Scopus;Scopus;10.4018/979-8-3373-8277-7.ch009
+SCO0503;I1;título não anuncia previsão de uso/demanda de recursos;FinOps-driven optimization of cloud resource usage for high-performance computing using machine learning;2024;Scopus;Scopus;10.1016/j.jocs.2024.102292
+SCO0512;I1;título não anuncia previsão de uso/demanda de recursos;Cloud Stateless Server Failover Prediction Using Machine Learning on Proactive System Metrics;2023;Scopus;Scopus;10.1109/isai-nlp60301.2023.10354585
+SCO0523;I1;título não anuncia previsão de uso/demanda de recursos;CFTD: Core Fusion Time Series Dense Encoder for Intelligent Prediction with Edge AI in Social IoT Systems;2025;IEEE;IEEE, Scopus;10.1109/jiot.2025.3569950
+SCO0528;I1;título não anuncia previsão de uso/demanda de recursos;Mixing machine learning and optimization for the tactical capacity planning in last-mile delivery;2021;Scopus;Scopus;10.1109/compsac51774.2021.00180
+SCO0536;I1;título não anuncia previsão de uso/demanda de recursos;A prediction-based model for virtual machine live migration monitoring in a cloud datacenter;2021;Scopus;Scopus;10.1007/s00607-021-00981-3
+SCO0557;I1;título não anuncia previsão de uso/demanda de recursos;Gaussian Adapted Markov Model with Overhauled Fluctuation Analysis-Based Big Data Streaming Model in Cloud;2024;Scopus;Scopus;10.1089/big.2023.0035
+SCO0570;I1;título não anuncia previsão de uso/demanda de recursos;Predictive service placement in cloud using deep learning and frequent subgraph mining;2023;Scopus;Scopus;10.1007/s12652-022-03720-4
+SCO0572;I1;título não anuncia previsão de uso/demanda de recursos;Kalman Filter Based Prediction and Forecasting of Cloud Server KPIs;2023;IEEE;IEEE, Scopus;10.1109/tsc.2022.3217148
+SCO0599;I1;título não anuncia previsão de uso/demanda de recursos;Predicting accurate batch queue wait times on production supercomputers by combining machine learning techniques;2024;Scopus;Scopus;10.1002/cpe.8112
+SCO0602;I1;título não anuncia previsão de uso/demanda de recursos;Automated Test Scheduling using Adaptive Hybrid Prediction Technique;2021;Scopus;Scopus;10.1109/ghci50508.2021.9514046
+SCO0632;I1;título não anuncia previsão de uso/demanda de recursos;Forecasting SQL Query Cost at Twitter;2021;IEEE;IEEE, Scopus;10.1109/ic2e52221.2021.00030
+SCO0633;I1;título não anuncia previsão de uso/demanda de recursos;OPTIMIZATION OF THE USE OF CLOUD COMPUTING RESOURCES USING EXPLORATORY DATA ANALYSIS AND MACHINE LEARNING;2024;Scopus;Scopus;10.2478/jaiscr-2024-0016
+SCO0688;I1;título não anuncia previsão de uso/demanda de recursos;Cloud Resource Allocation Based on Ensemble Machine Learning Prediction Techniques;2025;IEEE;IEEE, Scopus;10.1109/nmitcon65824.2025.11189018
+SCO0694;I1;título não anuncia previsão de uso/demanda de recursos;Predicting Traffic Patterns in Cloud Computing Systems to Optimize Resource Usage in Organization;2024;Scopus;Scopus;10.1007/978-3-031-70518-2_1
+SCO0705;I1;título não anuncia previsão de uso/demanda de recursos;Wavelet and VMD enhanced traffic forecasting and scheduling method for edge cloud networks;2025;Scopus;Scopus;10.1016/j.compeleceng.2024.109862
+SCO0711;I1;título não anuncia previsão de uso/demanda de recursos;WGGAL: A Practical Time Series Forecasting Framework for Dynamic Cloud Environments;2024;Scopus;Scopus;10.1007/978-981-97-5498-4_2
+SCO0737;I1;título não anuncia previsão de uso/demanda de recursos;Evaluating machine learning prediction techniques and their impact on proactive resource provisioning for cloud environments;2024;Scopus;Scopus;10.1007/s11227-024-06303-6
+SCO0739;I1;título não anuncia previsão de uso/demanda de recursos;Graph Deep Factors for Probabilistic Time-series Forecasting;2023;Scopus;Scopus;10.1145/3543511
+SCO0771;I1;título não anuncia previsão de uso/demanda de recursos;A Federated Large Language Model for Long-Term Time Series Forecasting;2024;Scopus;Scopus;10.3233/faia240772
+SCO0815;I1;título não anuncia previsão de uso/demanda de recursos;Prediction of Dynamic Virtual Machine (VM) Provisioning in Cloud Computing Using Deep Learning;2022;Scopus;Scopus;10.1007/978-981-16-9447-9_46
+SCO0845;I1;título não anuncia previsão de uso/demanda de recursos;A Self-decoupled Interpretable Prediction Framework for Highly-Variable Cloud Workloads;2023;Scopus;Scopus;10.1007/978-3-031-30637-2_39
+SCO0849;I1;título não anuncia previsão de uso/demanda de recursos;Developing Cluster-Based Adaptive Network Fuzzy Inference System Tuned by Particle Swarm Optimization to Forecast Annual Automotive Sales: A Case Study in Iran Market;2022;Scopus;Scopus;10.1007/s40815-022-01263-6
+SCO0853;I1;título não anuncia previsão de uso/demanda de recursos;C-LSTM: CNN and LSTM Based Offloading Prediction Model in Mobile Edge Computing (MEC);2022;Scopus;Scopus;10.1109/hpsr54439.2022.9831405
+SCO0856;I1;título não anuncia previsão de uso/demanda de recursos;Software Aging Prediction for Cloud Services Using a Gate Recurrent Unit Neural Network Model Based on Time Series Decomposition;2023;Scopus;Scopus;10.1109/tetc.2023.3258503
+SCO0867;I1;título não anuncia previsão de uso/demanda de recursos;Hypergraph Neural Networks for Time-series Forecasting;2023;IEEE;IEEE, Scopus;10.1109/bigdata59044.2023.10386109
+SCO0914;I1;título não anuncia previsão de uso/demanda de recursos;Resolution Matters: Revisiting Prediction-Based Job Co-location in Public Clouds;2022;Scopus;Scopus;10.1109/ucc56403.2022.00029
+SCO0921;I1;título não anuncia previsão de uso/demanda de recursos;The Parallel DCNN-LSTM Model for Cloud Computing Prediction Based on an Improved SG Filter;2024;IEEE;IEEE, Scopus;10.1109/icipca61593.2024.10709288
+SCO0933;I1;título não anuncia previsão de uso/demanda de recursos;AERO: Adaptive Edge-Cloud Orchestration With a Sub-1K-Parameter Forecasting Model;2025;IEEE;IEEE, Scopus;10.1109/tmlcn.2025.3553100
+SCO0934;I1;título não anuncia previsão de uso/demanda de recursos;Explaining Predictive Scheduling in Cloud;2022;Scopus;Scopus;10.1007/978-981-19-8234-7_7
+SCO0957;I1;título não anuncia previsão de uso/demanda de recursos;Prediction models for Clustered Virtual Machines in Data Centers;2023;Scopus;Scopus;10.1016/j.procs.2023.09.005
+SCO0975;I1;título não anuncia previsão de uso/demanda de recursos;Data-Enhanced Prediction with Decomposition and Amplitude-Aware Permutation Entropy in Distributed Computing Systems;2024;IEEE;IEEE, Scopus;10.1109/smc54092.2024.10831197
+IEE0130;I2;resumo sem indício de avaliação quantitativa;Predictive Disk Space Analysis For Microservice Based Applications On Public Cloud;2022;IEEE;IEEE;10.1109/iccst55948.2022.10040417
+IEE0567;I2;resumo sem indício de avaliação quantitativa;Microservice Container Load Trend Prediction based on Informer and Batch Normalization;2023;IEEE;IEEE;10.1109/aees59800.2023.10469263
+SCO0499;I2;resumo sem indício de avaliação quantitativa;Cloud Computing Load Prediction Strategy Based on Brain-Inspired LSTM Model;2025;IEEE;IEEE, Scopus;10.1109/iccc68654.2025.11437763
+SCO0508;I2;resumo sem indício de avaliação quantitativa;Implementation of Combined Machine Learning with the Big Data Model in IoMT Systems for the Prediction of Network Resource Consumption and Improving the Data Delivery;2022;Scopus;Scopus;10.1155/2022/6510934
+SCO0373;L1;artigo em chinês;"SAC-based Ensemble Framework for Multi-view Workload Forecasting in Cloud Computing; [云计算中基于 SAC 的多视角工作负载预测集成框架]";2026;Scopus;Scopus;10.13328/j.cnki.jos.007424
+IEE0162;manual;E2 manual: carga de rede de telecomunicações;Beyond One-Step: Attention-Based Encoder–Decoder for Multi-Step Forecasts for Network Load Dataset;2025;IEEE;IEEE;10.1109/icei68356.2025.11603730
+IEE0177;manual;I1 manual: resumo da base não corresponde ao título (geração de testes com LLM);Research on Multi-Model Fusion Machine Learning Demand Intelligent Forecasting System in Cloud Computing Environment;2025;IEEE;IEEE;10.1109/iacis65746.2025.11210946
+IEE0288;manual;E1 manual: carga elétrica de data center de IA;Very-Short-Term Load Forecasting for AI-Data Centers Using Gaussian Process Regression;2026;IEEE;IEEE;10.1109/tpec67884.2026.11513131
+SCO0010;manual;E1 manual: carga elétrica (IT load) para despacho na rede elétrica;Periodicity-Aware AI Data Center IT Load Forecasting Across Heterogeneous Cluster Scenarios;2026;Scopus;Scopus;10.1109/icpsasia70813.2026.11692219
+SCO0116;manual;E2 manual: prevê desempenho de workloads de banco de dados;From Feature Selection to Resource Prediction: An Analysis of Commonly AppliedWorkflows and Techniques;2025;Scopus;Scopus;10.48786/edbt.2025.73
+SCO0253;manual;I1 manual: previsão de demanda de vendas;An Integrated Predictive Analytics Architecture for Coordinated Sales Demand and Customer Lifetime Value Forecasting;2026;Scopus;Scopus;10.1109/icass69550.2026.11547404
+SCO0302;manual;E2 manual: foco em ataques adversariais a modelos CNN-LSTM, com dados de sensores IoT;A Deep Learning-Based Workload Forecasting Model in Cloud Data Centers;2025;IEEE;IEEE, Scopus;10.1109/icoct64433.2025.11118402
+SCO0337;manual;F1 manual: regressão do uso médio a partir de metadados de tarefas, não previsão de série temporal;Forecasting CPU and Memory Usage in Cloud Workloads Using Task Metadata: A Machine Learning Approach on Google Cluster Data;2026;Scopus;Scopus;10.1016/j.procs.2026.06.265
+SCO0371;manual;"I1 manual: blockchain/IoMT; previsão é acessória";An Adaptive Blockchain Framework for Federated IoMT with Reinforcement Learning-Based Consensus and Resource Forecasting;2026;Scopus;Scopus;10.1038/s41598-026-35704-1
+SCO0377;manual;E1 manual: previsão de consumo de energia a partir da carga computacional;Data Center Computing Load Forecasting Based on Feature Modeling and the Informer Model;2025;IEEE;IEEE, Scopus;10.1109/icpre67300.2025.11274232
+SCO0472;manual;I1 manual: carga de dispositivos em Logical Range (simulação), fora de nuvem/data center;A Hybrid Deep Learning-Based Load Forecasting Model for Logical Range;2025;Scopus;Scopus;10.3390/app15105628
+SCO0675;manual;E3 manual: previsão acoplada a balanceamento de carga;Deep Learning Approach for Workload Prediction and Balancing in Cloud Computing;2024;Scopus;Scopus;10.14569/ijacsa.2024.0150477
+SCO0691;manual;E2 manual: prevê falhas de alocação (low capacity status);Effective low capacity status prediction for cloud systems;2021;Scopus;Scopus;10.1145/3468264.3473917
+SCO0699;manual;E2 manual: prevê status de execução de jobs;An Improved LightGBM Job Running Status Prediction Algorithm Integrating Combinatorial Feature Selection and Bayesian Hyperparameter Optimization on Spark;2022;Scopus;Scopus;10.1109/smartworld-uic-atc-scalcom-digitaltwin-pricomp-metaverse56740.2022.00125
+SCO0823;manual;E2 manual: prevê tempo de fila de jobs;A Hierarchical Deep Learning Approach for Predicting Job Queue Times in HPC Systems;2024;Scopus;Scopus;10.1109/scw63240.2024.00086
+SCO0868;manual;E2 manual: banda de rede de CDN (tráfego), não recurso de data center;A Bandwidth Prediction Method Based on Hybrid LSTM for Content Delivery Network;2022;IEEE;IEEE, Scopus;10.1109/smartcloud55982.2022.00040
+SCO0869;manual;I1 manual: carga de trabalho de departamentos de saúde, não de TI;A robust ensemble technique in forecasting workload of local healthcare departments;2021;Scopus;Scopus;10.1016/j.neucom.2020.02.138

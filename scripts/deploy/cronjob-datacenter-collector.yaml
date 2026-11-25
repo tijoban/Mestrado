@@ -1,0 +1,31 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: datacenter-collector
+  namespace: monitoramento
+spec:
+  schedule: "0 * * * *"
+  concurrencyPolicy: Forbid
+  successfulJobsHistoryLimit: 3
+  failedJobsHistoryLimit: 3
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          restartPolicy: OnFailure
+          containers:
+            - name: datacenter-collector
+              # Troque <REGISTRY> pelo registry onde a imagem foi publicada.
+              image: <REGISTRY>/capacityplan-coleta:latest
+              command: ["python3", "-m", "coleta.datacenter_collector"]
+              envFrom:
+                # Secret criado fora do repositório com as variáveis do .env.example
+                - secretRef:
+                    name: datacenter-credentials
+              resources:
+                requests:
+                  cpu: "200m"
+                  memory: "256Mi"
+                limits:
+                  cpu: "500m"
+                  memory: "512Mi"

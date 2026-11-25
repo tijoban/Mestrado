@@ -1,0 +1,14 @@
+# Previsão (job mensal): versões usadas em produção
+tensorflow-cpu==2.17.1
+pandas==2.2.3
+numpy==1.26.4
+scikit-learn==1.5.2
+psycopg2-binary==2.9.10
+# Experimento walk-forward e análise
+statsmodels>=0.14
+scipy>=1.11
+matplotlib>=3.8
+# Coleta
+pyvmomi==8.0.3.0.1
+requests>=2.31
+urllib3>=2

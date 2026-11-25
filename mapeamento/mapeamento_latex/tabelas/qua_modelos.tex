@@ -1,0 +1,75 @@
+\mapquadro{Abordagem, modelo proposto e principal resultado de cada estudo (QP4)}{qua:map-modelos}
+{\footnotesize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{longtable}{p{1.3cm}p{2.6cm}p{5.0cm}p{5.9cm}}
+\toprule
+\textbf{ID} & \textbf{Abordagem} & \textbf{Modelo proposto/avaliado} & \textbf{Principal resultado} \\
+\midrule
+\endfirsthead
+\multicolumn{4}{l}{\textit{Continuação}}\\
+\toprule
+\textbf{ID} & \textbf{Abordagem} & \textbf{Modelo proposto/avaliado} & \textbf{Principal resultado} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{4}{r}{\textit{Continua na próxima página}}\\
+\endfoot
+\bottomrule
+\multicolumn{4}{l}{Fonte: Elaborado pelo autor (2026).}\\
+\endlastfoot
+Scopus 01 & Híbrido de deep learning & VAR + CNN-LSTM multivariado & Melhora de 6\% a 8\% na acurácia; VAR filtra dependências lineares entre recursos \\
+Scopus 02 & Híbrido estatístico + DL & Ensemble ponderado VAR + LSTM; LSTM empilhada multivariada & Modelos multivariados superam univariados; LSTM empilhada multivariada supera VAR e o ensemble; causalidade de Granger entre recursos \\
+Scopus 03 & Deep learning (arquitetura única) & MAG-D (BiGRU multivariada com atenção + clusterização) & Clusterização de padrões + atenção melhora previsão multi-step de carga volátil \\
+Scopus 04 & Híbrido de deep learning & DTW + clusterização + N-BEATS com transfer learning & Modelos generalizados por cluster reduzem custo computacional; N-BEATS foi o melhor \\
+Scopus 05 & Deep learning (arquitetura única) & Modelos DL probabilísticos uni/bivariados com transfer learning (fine-tuning) & Previsões com incerteza orientam decisões; transfer learning viabiliza novos data centers com pouco histórico \\
+Scopus 06 & Híbrido de deep learning & PSH (patches + caminho local Transformer + caminho global Mamba) & Pipeline de pré-processamento (reamostragem adaptativa) para irregularidade dos traces \\
+Scopus 07 & Ensemble & Ensemble dos 3 melhores modelos selecionados por SHAP/LIME/ELI5 & Explicabilidade (SHAP) apoia seleção de atributos e modelos para previsão em tempo real \\
+Scopus 08 & Deep learning (arquitetura única) & MST-iTransformer (codificação multiescala + atenção esparsa + seleção adaptativa) & Reduz erro e latência de inferência frente ao iTransformer \\
+Scopus 09 & Híbrido de deep learning & MSCAF & Decomposição tendência/resíduo com convoluções separáveis equilibra leveza e captura multiescala \\
+Scopus 10 & Híbrido de deep learning & LSTM/GRU com Fast Wavelet Transform vs. Transformer & GRU com FWT supera Transformer em \textasciitilde{}30\% no MAE; separação cronológica para evitar data leakage \\
+Scopus 11 & Deep learning (arquitetura única) & RA-TimeMixer (treino ponderado em alta carga + calibração assimétrica de limite superior) & Orientado a planejamento de capacidade: reduz subestimação em alta carga (risco de subprovisionamento) \\
+Scopus 12 & Estudo comparativo/benchmark & ARIMA; RNN; LSTM; BiLSTM; Informer; TFT; VM-Temporal Transformer & LSTM tem o melhor equilíbrio acurácia/latência (0,24 ms; 201 KB); análise orientada à implantação (AIOps) \\
+Scopus 13 & Híbrido de deep learning & Informer++ (CIST-MLP para tendência + extração multiperiódica sazonal) & Trata distribution shift (PSI) e sazonalidade multiescala em horizontes longos \\
+WoS 01 & Deep learning (arquitetura única) & Framework de previsão com 6 arquiteturas recorrentes (LSTM, BiLSTM empilhada, BiLSTM-LSTM, LSTM-BiLSTM, LSTM autoencoder etc.) & BiLSTM supera LSTM unidirecional; analisa efeito do tamanho da janela histórica e do conjunto de treino \\
+WoS 02 & Estudo comparativo/benchmark & LSTM vs. preditor persistente (valor anterior) & Previsões de LSTM com alta acurácia são, na prática, a série deslocada em um passo; ML nem sempre supera heurísticas simples \\
+WoS 03 & Estudo comparativo/benchmark & MLP; ARNN; CNN; LSTM & MLP superou CNN e LSTM; motivação energética (liberar VMs superalocadas) \\
+WoS 04 & Estudo comparativo/benchmark & Modelos LTSF (PatchTST, DLinear, iTransformer, SegRNN, TimesNet etc.) vs. modelos especializados (esDNN, SG-CBA, GRU) & Modelos LTSF superam consistentemente os modelos especializados; distribution shift é o principal desafio \\
+WoS 05 & Híbrido de deep learning & CBA-HDL (filtro Savitzky-Golay + 1D-CNN + BiGRU + atenção) & Reduz 40,6\% do tempo de treino; filtro SG + Min-Max melhora previsão multi-step para planejamento de longo prazo \\
+IEEE 01 & Híbrido de deep learning & CNN-LSTM & CNN-LSTM supera LSTM e CNN isolados em todos os padrões de carga \\
+IEEE 02 & Estudo comparativo/benchmark & ARIMA; SARIMA; Prophet; Holt-Winters; XGBoost; ensembles & Testes de estacionariedade/normalidade orientam a escolha do modelo; ARIMA adequado para séries curtas \\
+IEEE 03 & Híbrido estatístico + DL & ALEDAR (encoder-decoder LSTM com atenção + autorregressivo) & Melhora de 9,7\% a 34,2\% sobre o estado da arte em ambiente multi data center \\
+IEEE 04 & Híbrido com metaheurística & Rede neural otimizada por Artificial Lizard Search Optimization (ALSO) & Otimização metaheurística dos pesos melhora a rede neural rasa \\
+IEEE 05 & Ensemble & Ensemble dinâmico de N-BEATS, N-HiTS e TFT com seleção por erro & Ensemble reduz MAPE em \textasciitilde{}37\% (CPU), 34\% (memória) e 36\% (disco) frente ao modelo único \\
+IEEE 06 & Estudo comparativo/benchmark & Clusterização (K-means etc.) + ARIMA, LSTM e Prophet & Clusterizar a carga antes de prever melhora a eficiência de todos os modelos \\
+IEEE 07 & Estudo comparativo/benchmark & 8 modelos (AR, MA, ARIMA, SARIMA, SVR linear/RBF etc.) & SVR com kernel RBF foi o melhor (MAPE 10,91\%); painel calcula recursos necessários \\
+IEEE 08 & Ensemble & Ensemble de preditores (ESRNN, TCN, LSTM, GRU) com seleção por RL & Seleção dinâmica via RL supera pesos fixos; ESRNN foi o melhor preditor individual \\
+IEEE 09 & Deep learning (arquitetura única) & BiLSTM com janela deslizante adaptativa & Janela adaptativa capta mudanças locais recentes melhor que janelas fixas \\
+IEEE 10 & Híbrido com metaheurística & FLGAPSONN (rede neural funcional com GA e PSO) & Supera FLPSONN, FLGANN e FLNN em 24\%, 19,5\% e 29,5\% \\
+IEEE 11 & Híbrido de deep learning & ACL-Cloud (CNN-LSTM com atenção suave) & Atenção sobre passos passados melhora generalização em previsão multivariada \\
+IEEE 12 & Estudo comparativo/benchmark & LSTM; SVM; Random Forest; XGBoost; Prophet & LSTM é o mais preciso, mas custoso; Random Forest dá o melhor equilíbrio acurácia/custo \\
+IEEE 13 & Híbrido de deep learning & TiDE com decomposição sazonal-tendência-resíduo & Decompor e modelar cada componente com TiDE aumenta acurácia e reduz custo computacional \\
+IEEE 14 & Híbrido de deep learning & DualScope-LSTM & MSE 84,8\% menor; voltado a planejamento proativo de capacidade; 1,46 M parâmetros e 15 ms de inferência \\
+IEEE 15 & Deep learning (arquitetura única) & EE-LoadFormer (Transformer com embedding de eventos históricos semelhantes) & Reduz MSE e MAE em \textasciitilde{}64\% e \textasciitilde{}56\%; eventos históricos semelhantes além da janela de entrada \\
+IEEE 16 & Híbrido de deep learning & MEKITformer (desacoplamento multiperíodo + fusão tempo-frequência + atenção na frequência) & Reduz MAE em 3,2\% e RMSE em 21,7\%; complexidade O(n log n). Extraído do resumo \\
+IEEE 17 & Estudo comparativo/benchmark & Informer; LSTM; GRU; Prophet; XGBoost & Prophet (0,097) e XGBoost (0,096) superaram Informer, LSTM e GRU em RMSE \\
+IEEE 18 & Híbrido de deep learning & MUL-CNN-BiGRU-Attention & Único estudo implantado em produção on-premise: treino offline, serving em contêiner e ajuste fino contínuo \\
+IEEE 19 & Deep learning (arquitetura única) & Framework multitarefa com codificação compartilhada e propagação estrutural entre nós & Modela contenção de recursos e dependência entre serviços em backends multi-tenant \\
+IEEE 20 & Híbrido de deep learning & CNN+LSTM & Integrável a sistemas de monitoramento como microsserviço de previsão contínua \\
+IEEE 21 & Híbrido de deep learning & AMSP-Affirm (patches de tamanho variável + dual-Mamba) & Patches dinâmicos preservam picos de carga que patches fixos suavizam \\
+IEEE 22 & Deep learning (arquitetura única) & CoTF (representações contrastivas tempo-frequência) & Aprendizado contrastivo mitiga distribution shift em horizontes longos \\
+IEEE 23 & Deep learning (arquitetura única) & DeCoR (Decoupled Channel Routing) & Em autoscaling proativo no Kubernetes reduz latência em 17,7\% e consumo de recursos em 25,1\% frente ao reativo \\
+IEEE 24 & Híbrido com metaheurística & GWO-QNN-BiLSTM (Grey Wolf Optimizer ajusta hiperparâmetros) & GWO melhora RMSE em 15,3\% e MAPE em 17,8\% frente ao QNN-BiLSTM sem otimização \\
+IEEE 25 & Híbrido de deep learning & GST-Transformer (grafo adaptativo dinâmico entre VMs) & RMSE 8,3\%–17,9\% e MAE 11,5\%–20,0\% menores; modela dependências espaciais entre VMs co-localizadas \\
+IEEE 26 & Deep learning (arquitetura única) & LSTM & Previsão desacoplada da infraestrutura (só a partir de traces), portável entre nuvens \\
+IEEE 27 & Híbrido de deep learning & Hybrid LSTM com correção de resíduo & Correção residual reduz o acúmulo de erro em cargas dinâmicas \\
+IEEE 28 & Generativo/LLM & TR-GAN (GAN com bloco Transformer de retificação e aumento de dados) & \textasciitilde{}15\% melhor que Informer, Autoformer e AEC-GAN em horizontes longos; dados sintéticos melhoram generalização \\
+ACM 01 & Deep learning (arquitetura única) & LSTM por job + seleção de modelo por similaridade (DTW, distâncias) & Seleção de modelo baseada em padrões falha para séries semelhantes deslocadas; a representação da série importa \\
+ACM 02 & Deep learning (arquitetura única) & PCNN (CNN baseada em patches multigranular) & Patches multigranulares capturam multiperiodicidade de contêineres \\
+ACM 03 & Deep learning (arquitetura única) & Embeddings de séries + busca por proximidade & Representation learning supera baselines de ML; heurísticas simples dominam em produção pela baixa sobrecarga \\
+ACM 04 & Deep learning (arquitetura única) & Fremer & -5,5\% MSE vs SOTA; em autoscaling K8s reduz latência 18,8\% e consumo 2,35\% \\
+ACM 05 & Generativo/LLM & CloudLLaMA-TS (Llama 3 + codebook temporal + MoE) & MAPE 6,23\% com inferência $<$20 ms; integra métricas e logs \\
+ACM 06 & Híbrido de deep learning & FT-Informer & Reduz erros de 12,2\% a 31,0\% frente ao segundo melhor \\
+ACM 07 & Híbrido de deep learning & Rede de atenção tempo-frequência (IN + DCT + fusão adaptativa) & Extração espectral melhora robustez a picos e não estacionariedade \\
+\end{longtable}
+}

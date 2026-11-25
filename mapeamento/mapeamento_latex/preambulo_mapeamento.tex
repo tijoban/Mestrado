@@ -1,0 +1,41 @@
+% =====================================================================
+% Preâmbulo do mapeamento sistemático
+% Inclua no preâmbulo do documento principal:  \input{preambulo_mapeamento}
+% (se a pasta estiver em outro lugar, ajuste o caminho e o \mappath abaixo)
+% =====================================================================
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{array}
+
+% Caminho da pasta do mapeamento em relação ao arquivo principal.
+% Ex.: se a pasta se chama "mapeamento_latex" e está ao lado do main.tex:
+%      \renewcommand{\mappath}{mapeamento_latex/}
+\providecommand{\mappath}{}
+
+% Citação textual: abnTeX2 usa \citeonline; com outros pacotes cai em \cite.
+\providecommand{\citeonline}[1]{\cite{#1}}
+
+% Linha de fonte abaixo de figuras/tabelas/quadros (padrão ABNT).
+\providecommand{\mapfonte}[1]{\par\smallskip{\footnotesize #1\par}}
+
+% ---------------------------------------------------------------------
+% Quadros
+% Se a sua classe/template já define o ambiente/contador "quadro"
+% (comum em templates abnTeX2), ele é reaproveitado. Caso contrário,
+% um contador é criado. \mapquadro{legenda}{rótulo} escreve a legenda
+% "Quadro N -- ..." e registra o item na lista de quadros (arquivo .loq).
+% ---------------------------------------------------------------------
+\providecommand{\quadroname}{Quadro}
+\providecommand{\quadroautorefname}{Quadro}
+% \autoref vem do hyperref (carregado pelo abnTeX2). Sem hyperref, vira \ref.
+\AtBeginDocument{\providecommand{\autoref}[1]{\ref{#1}}}
+\makeatletter
+\@ifundefined{c@quadro}{\newcounter{quadro}}{}
+\newcommand{\mapquadro}[2]{%
+  \par\addvspace{\medskipamount}%
+  \refstepcounter{quadro}\label{#2}%
+  \addcontentsline{loq}{quadro}{\protect\numberline{\thequadro}#1}%
+  \nopagebreak{\centering\small \quadroname~\thequadro~--~#1\par}\nopagebreak[4]\vspace{2pt}\nopagebreak[4]}
+\makeatother

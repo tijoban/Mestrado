@@ -1,0 +1,43 @@
+% =====================================================================
+% Documento de teste: compila o mapeamento sozinho (abnTeX2).
+% Para usar na dissertação, copie a pasta para o projeto e:
+%   1) no preâmbulo:  \newcommand{\mappath}{mapeamento_latex/}
+%                     \input{mapeamento_latex/preambulo_mapeamento}
+%   2) no capítulo:   \input{mapeamento_latex/mapeamento}
+%   3) na bibliografia, acrescente referencias_mapeamento.bib
+% Compilação: pdflatex -> bibtex -> pdflatex -> pdflatex
+% =====================================================================
+\documentclass[12pt,a4paper,oneside,english,brazil]{abntex2}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[alf]{abntex2cite}
+
+% Lista de quadros (se o seu template já tiver, remova este bloco)
+\newcommand{\listofquadrosname}{Lista de quadros}
+\newlistof{listofquadros}{loq}{\listofquadrosname}
+\newlistentry{quadro}{loq}{0}
+
+\input{preambulo_mapeamento}
+
+\begin{document}
+
+\pdfbookmark[0]{\listfigurename}{lof}
+\listoffigures*
+\cleardoublepage
+\pdfbookmark[0]{\listtablename}{lot}
+\listoftables*
+\cleardoublepage
+\pdfbookmark[0]{\listofquadrosname}{loq}
+\listofquadros*
+\cleardoublepage
+
+\textual
+\chapter{Revisão da literatura}
+\input{mapeamento}
+
+\postextual
+\bibliography{referencias_mapeamento}
+
+\end{document}
